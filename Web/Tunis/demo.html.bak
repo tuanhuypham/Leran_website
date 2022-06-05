@@ -1,0 +1,112 @@
+<html>
+	<head>
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+			
+			body {
+				margin: 0;
+			}
+			
+			.main {
+				background: linear-gradient(75deg, #ffb400, 23%, #ffb400, 23%, #242424);
+				height: 100vh;
+				display: flex;
+				align-items: center;
+			}
+			
+			.img, .content {
+				border: 1px solid white;
+			}
+			
+			.img {
+				width: 38%;
+				padding: 40px;
+				height: 100%;
+				 
+			}
+			
+			.avatar {
+				background: url(https://tunis.ibthemespro.com/img/hero/dark.jpg);
+				background-size: cover;
+				background-position: center;
+				height: 100%;
+				border-radius: 30px;
+				box-shadow: 0 0 5px 1px #080808;
+			}
+			
+			.content {
+				width: 62%;
+				text-align: center;
+			}
+			
+			.introduction {
+				color: white;
+				display: inline-block;
+				width: 40%;
+				text-align: left;
+			}
+			
+			.btn-idea {
+				position: fixed;
+				top: 15px;
+				right: 15px;
+			}
+			
+			.btn-idea img {
+				width: 24px;
+			}
+			
+			.btn-group {
+				display: flex;
+				flex-direction: column;
+				
+				right: 15px;
+				position: fixed;
+				top: 50%;
+				transform: translate(-50%, -50%);
+			} 
+			
+			.btn-group > button > img {
+				width: 24px;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div>
+			<button class="btn-idea">
+				<img src="idea.png"/>
+			</button>
+			<div class="btn-group">
+				<button class="btn-a"><img src="idea.png"/></button>
+				<button class="btn-a"><img src="idea.png"/></button>
+				<button class="btn-a"><img src="idea.png"/></button>
+				<button class="btn-a"><img src="idea.png"/></button>
+			</div>
+		</div>
+		<div class="main">
+			<div class="img">
+				<div class="avatar"></div>
+			</div>
+			<div class="content">
+				<div class="introduction">
+					<h1>- I'M STEVE MILNER. 
+					<br> 
+					<span>WEB DESIGNER</span></h1>
+					
+					<p>
+						I'm a Tunisian based web designer
+						& front-end developer focused on crafting clean & user-friendly experiences, I am passionate about building excellent software that improves the lives of those around me.
+					</p>
+					
+					<button>
+						MORE ABOUT ME
+						<span>-></span>
+					</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

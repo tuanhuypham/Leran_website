@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tunis</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+   <div class = "main">
+		<div class = "img">
+			<img src = "https://tunis.ibthemespro.com/img/hero/dark.jpg">
+		</div>
+		<div class = "content">
+			<div>
+				<h1>-I'M STEVE MILNER</h1>
+				<span>WEB DESIGNER</span>
+				<p>I'm a Tunisian based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p>
+			</div>
+		</div>
+   </div>
+</body>
+</html>
+

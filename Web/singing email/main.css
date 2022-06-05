@@ -1,0 +1,77 @@
+.subframe {
+    width: 1100px;
+    margin: 0 auto;
+    background-color: #e4ebea;
+    padding-bottom: 100px;
+}
+.title
+{
+    text-align: center;
+    font-size: 20px;
+}
+.title .first-title
+{
+    font-size: 30px;
+    font-family: arial;
+    padding-bottom: 0px;
+    padding-top: 40px;
+}
+
+.title .secon-title 
+{
+    font-size: 26px;
+    font-family: arial;
+    color: #666364;
+    font-family: sans-serif;
+    padding-top: 0;
+    font-weight: 500;
+    
+}
+.title .img img
+{
+    width: 75px;
+    padding-top: 80px;
+    background-color: #daeee9;
+    
+}
+.Input-on
+{
+    
+    border: 0px solid #ffffff;
+    padding: 25px;
+    padding-left: 22px;
+    padding-right: 265px;
+    font-size: 22px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    font-weight: 750;
+}
+.click
+{
+    padding: 15px;
+
+}
+
+.click-on{
+    border: none;
+    background-color: #70cbce;
+    color: white;
+    font-size: 24px;
+    font-family: monospace;
+    padding: 21px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    font-weight: 700;
+}
+.name
+{
+    color: rgb(102, 49, 22) ;
+
+}
+

@@ -1,0 +1,209 @@
+#caphe
+{
+    display: flex;
+}
+#cohoi
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#infoproduct
+{
+    background-color: white;
+    width: 1100px;
+    margin: 0 auto; 
+}
+#espreso
+{
+   font-family: Tahoma, Geneva, sans-serif;
+   font-size: 27px;
+   font-weight: 700;
+   color:black;
+}
+
+#caphedamvi
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    font-style: italic;
+}
+#cohoi
+{
+    font-family: Tahoma, Geneva, sans-serif;
+}
+#HT a
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40;
+}
+#huongthuc
+{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+#nhanvienvacongsu
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+}
+#thamgia
+{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#startbuck
+{
+    max-width:100px;
+}
+#product
+{
+    background-color:white;
+}
+body {
+    background-color: #f7f7f7;
+    margin :0;
+}
+#cafe
+{
+    padding: 50px;
+    padding-left: 0;
+}
+#nuttim
+{
+    margin: auto;
+    max-width:15px;
+    padding: 3px;
+}
+#timkiem
+{
+    line-height: 80px;
+}
+#mangxahoi
+{
+    background-color: #f0f0f0;
+}
+#faceandinsta
+{ 
+    margin: auto;
+    width: 65%;
+    border: 5px;
+    padding: 58px;
+    line-height: 0px;
+}
+
+#face
+{
+    max-width:45px;
+}
+#thongtin
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-image: url(file:///D:/OneDrive%20-%20University%20of%20Economics%20and%20Finance%20-%20UEF/Hoc%20tap/Web/IDEA/wordmark_footer_tcm89-397.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 11px;
+    width: 1100px;
+    
+}
+#vedoanhnghiep
+{
+    font-family:Tahoma, Geneva, sans-serif ; 
+}
+#vekhachhang
+{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14;
+}
+#lienketnhanh
+{
+    font-family: Tahoma, Geneva, sans-serif;
+}
+#vechungtoi
+{
+    font-size: 14px;
+}
+#dvkhachhang
+{
+    font-size: 14px;
+}
+#lienket
+{
+    font-size: 14px;
+}
+#minidoanhnghiep
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13;
+}
+#doanhnghiep
+{
+    font-size: 12px;
+}
+#doitac
+{
+    font-size: 12px;
+}
+#cauhoi
+{
+    font-size: 12px;
+}
+#phancuoi
+{
+    margin-left: auto;
+    margin-top: 50px;
+    width: 1743px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-menu {
+    border-top: 10px solid #006341;
+}
+
+.detail-content {
+    width: 1100px;
+    margin: 0 auto;
+    /* border: 1px solid; */
+}
+
+.minimenu a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #242221;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+
+.minimenu .startbuck {
+    padding-left: 0;
+}
+
+.startbuck img {
+    width: 62px;
+}
+
+.timcuahang {
+    padding-top: 20px;
+}
+
+.timcuahang a {
+    text-decoration: none;
+    color: rgb(50 49 49);
+}
+
+.timcuahang img {
+    height: 21px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
