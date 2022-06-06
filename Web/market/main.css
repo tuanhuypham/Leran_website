@@ -1,0 +1,22 @@
+body
+{
+    font-family: 'Lato', Arial, Verdana;
+}
+.menu
+{
+    width: 1100px;
+    margin: auto;
+}
+.content
+{
+    display: flex;
+    justify-content: space-between;
+}
+.click
+{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    line-height: 65px;
+    margin-left: -5px;
+}
