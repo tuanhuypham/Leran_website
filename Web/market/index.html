@@ -1,31 +1,759 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Market</title>
     <link rel="stylesheet" href="main.css">
+    <style>
+        
+    </style>
 </head>
+
 <body>
     <div class="main">
-        <div class="menu">
-            <div class="content">
-                <div class="img">
-                    <img src="http://tk-themes.net/html-bookawesome/images/logo-header.png" alt="">
+        <div class="container-menu">
+            <div class="menu">
+                <div class="content">
+
+                    <div class="img">
+                        <img src="file:///D:/OneDrive%20-%20University%20of%20Economics%20and%20Finance%20-%20UEF/Hoc%20tap/Leran_website/Web/market/logo-header.png"
+                            alt="">
+                    </div>
+                    <div class="button">
+                        <div class="button-click">
+                            <ul type="none">
+                                <li class="click click-1">HOME</li>
+                                <li class="click">PAGES</li>
+                                <li class="click">HOTEL</li>
+                                <li class="click">FLIGHTS</li>
+                                <li class="click">CAR</li>
+                                <li class="click">CRUISES</li>
+                                <li class="click">TOUR</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-second">
+            <div class="content-menu">
+                <div class="icon-menu">
+                    <div class="icon">
+                        <span>FLIGHT</span>
+                        <img class="img" src="http://tk-themes.net/html-bookawesome/images/icon-flight.png">
+                    </div>
+                    <div class="icon">
+                        <span>HOTEL</span>
+                        <img class="img" src="http://tk-themes.net/html-bookawesome/images/icon-hotel.png">
+                    </div>
+                    <div class="icon">
+                        <span>CAR</span>
+                        <img class="img" src="http://tk-themes.net/html-bookawesome/images/icon-hotel.png">
+                    </div>
+                    <div class="icon">
+                        <span>PACKAGE DEAL</span>
+                        <img class="img" src="http://tk-themes.net/html-bookawesome/images/icon-tour.png">
+                    </div>
+                    <div class="icon">
+                        <span>CRUISE</span>
+                        <img class="img" src="http://tk-themes.net/html-bookawesome/images/icon-cruise.png">
+                    </div>
+                    <div class="icon icon-last">
+                        <span>TOUR</span>
+                        <img class="img" src="http://tk-themes.net/html-bookawesome/images/icon-vacation.png">
+                    </div>
+                </div>
+                <div class="selection-menu">
+                    <div class="serch">
+                        <h3>Where would you like to go?</h3>
+                    </div>
+                    <div class="serch-tag">
+                        <div class="form-serch">
+                            <div class="button-serch-stt stt-1">
+                                <label for="">
+                                    <span>Destination:</span>
+                                    <input type="text">
+                                </label>
+                            </div>
+                            <div class="button-serch-stt stt-2">
+                                <label for="">
+                                    <input type="text" placeholder="Check in">
+                                </label>
+                            </div>
+                            <div class="button-serch-stt stt-3">
+                                <label for="">
+                                    <input type="text" placeholder="Check out">
+                                </label>
+                            </div>
+                            <div class="button-serch-stt stt-4">
+                                <label for="">
+                                    <select>
+                                        <option value="GUEST">GUEST</option>
+                                        <option value="GUEST">GUEST 1</option>
+                                        <option value="GUEST">GUEST 2</option>
+                                        <option value="GUEST">GUEST 3</option>
+                                    </select>
+                                </label>
+                            </div>
+                            <div class="button-serch-stt button-serch-stt-button">
+                                <button type="button" onclick="alert('Chưa có cái khỉ gì hết bấm vô chi dị !!')">SERCH</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="notification">
+            <div class="menu menu-notification">
+                <div class="notification-content">
+                    <h3>Hot Sale Today:</h3>
+                    <h4>Amsterdam, Saint Petersburg & more</h4>
+                </div>
+                <div class="notification-button">
+                    <a href="#">ALL SALE</a>
+                    <img class="button-arrow"
+                        src="D:\OneDrive - University of Economics and Finance - UEF\Hoc tap\Leran_website\Web\img\arrow-right.svg"
+                        alt="">
+                </div>
+            </div>
+        </div>
+        <div class="content-menu card-sale">
+            
+            <div class="tag tag-1">
+                <div class="tag-item tag-item-1">
+                    <div class="tag-img">
+                        
+                        <img src="http://tk-themes.net/html-bookawesome/images/deal/img-1.jpg"
+                            alt="">
+                    </div>
+                    
+                    <div class="tag-info-place">
+                        <div class="tag-hotel">
+                            <a href="#">Copley Square Hotel</a>
+                        </div>
+                        <div class="tag-place">
+                            <a href="#">Boston, Massachusetts</a>
+                        </div>
+                        <hr class="hr">
+                        <div class="tag-price-1">
+                            <span>From</span>
+                            <small>$269</small>
+                        </div>
+                        <div class="tag-price-2">
+                            <span>
+                                $175   
+                            </span>
+                            <small>/night</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="tag-item tag-item-2">
+                    <div class="tag-img">
+                        <img src="http://tk-themes.net/html-bookawesome/images/deal/img-2.jpg"
+                            alt="">
+                    </div>
+                    <div class="tag-info-place">
+                        <div class="tag-hotel">
+                            <a href="#">Grand Hotel Bagni Nuovi</a>
+                        </div>
+                        <div class="tag-place">
+                            <a href="#">Boston, Italy</a>
+                        </div>
+                        <hr class="hr">
+                        <div class="tag-price-1">
+                            <span>From </span>
+                            <small>$632</small>
+                        </div>
+                        <div class="tag-price-2">
+                            <span>
+                                $345   
+                            </span>
+                            <small>/night</small>
+                        </div>
+                    </div>
+                    
                 </div>
 
-                <div class="button">
-                    <div class="button-click">
+                <div class="tag-item tag-item-3 tag-item-3-none">
+                    <div class="tag-img">
+                        <img src="http://tk-themes.net/html-bookawesome/images/deal/img-3.jpg"
+                            alt="">
+                    </div>
+                    <div class="tag-info-place">
+                        <div class="tag-hotel">
+                            <a href="#">The Standard, East Village</a>
+                        </div>
+                        <div class="tag-place">
+                            <a href="#">New York, New York</a>
+                        </div>
+                        <hr class="hr">
+                        <div class="tag-price-1">
+                            <span>From </span>
+                            <small>$582</small>
+                        </div>
+                        <div class="tag-price-2">
+                            <span>
+                                $258   
+                            </span>
+                            <small>/night</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tag tag-2">
+                <div class="tag-item tag-item-3">
+                    <div class="tag-img">
+                        <img src="http://tk-themes.net/html-bookawesome/images/deal/img-4.jpg"
+                            alt="">
+                    </div>
+                    <div class="tag-info-place">
+                        <div class="tag-hotel">
+                            <a href="#">Ganges River Cruise</a>
+                        </div>
+                        <div class="tag-place">
+                            <a href="#">London, United Kingdom</a>
+                        </div>
+                        <hr class="hr">
+                        <div class="tag-price-1">
+                            <span>From</span>
+                            <small>$582</small>
+                        </div>
+                        <div class="tag-price-2">
+                            <span>
+                                $258
+                            </span>
+                            <small>/night</small>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="tag-item tag-item-1">
+                    <div class="tag-img">
+                        <img src="http://tk-themes.net/html-bookawesome/images/deal/img-5.jpg"
+                            alt="">
+                    </div>
+                    <div class="tag-info-place">
+                        <div class="tag-hotel">
+                            <a href="#">Copley Square Hotel</a>
+                        </div>
+                        <div class="tag-place">
+                            <a href="#">Boston, Massachusetts</a>
+                        </div>
+                        <hr class="hr">
+                        <div class="tag-price-1">
+                            <span>From </span>
+                            <small>$269</small>
+                        </div>
+                        <div class="tag-price-2">
+                            <span>
+                                $175                             
+                            </span>
+                            <small>/night</small>
+                        </div>
+                    </div>
+                    
+
+                </div>
+                <div class="tag-item tag-item-2 tag-item-2-none">
+                    <div class="tag-img">
+                        <img src="http://tk-themes.net/html-bookawesome/images/deal/img-6.jpg"
+                            alt="">
+                    </div>
+                    <div class="tag-info-place">
+                        <div class="tag-hotel">
+                            <a href="#">A Hidden NYC Mystery Hotel</a>
+                        </div>
+                        <div class="tag-place">
+                            <a href="#">Boston, Italy</a>
+                        </div>
+                        <hr class="hr">
+                        <div class="tag-price-1">
+                            <span>From </span>
+                            <small>$354</small>
+                        </div>
+                        <div class="tag-price-2">
+                            <span>
+                                $255      
+                            </span>
+                            <small>/night</small>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="notification-end">
+        <div class="menu menu-notification">
+            <div class="notification-content">
+                <h3>Top Travel Destinations</h3>
+            </div>
+            <div class="notification-button">
+                <a href="#">VIEW ALL</a>
+                <img class="button-arrow"
+                    src="D:\OneDrive - University of Economics and Finance - UEF\Hoc tap\Leran_website\Web\img\arrow-right.svg"
+                    alt="">
+            </div>
+        </div>
+    </div>
+    <div class="tag-country">
+        <div class="place-country">
+            <div class="recommend-place">
+                <div class="discover">
+                    <div class="discover-1">
+                        <div class="discover-1-small">
+                            <small>Discover</small>
+                        </div>
+                        <div class="discover-1-span-small">
+                            <span>2364</span>
+                            <small> properties</small>
+                        </div>
+                    </div>
+                    <div class="discover-1">
+                        <div class="discover-1-small">
+                            <small>Discover</small>
+                        </div>
+                        <div class="discover-1-span-small">
+                            <span>2364</span>
+                            <small> properties</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="recommend">
+                    <ul type="none">
+                        <li class="countries-and-continents countries-and-continents-top">
+                            <img src="GoogleMaps_64_transparent.svg" alt="">
+                            <a href="">Recommendation for you</a>
+                        </li>
+                        <li class="countries-and-continents">
+                            <img src="GoogleMaps_64_transparent.svg" alt="">
+                            <a href="">Australia & Oceania</a>
+                        </li>
+                        <li class="countries-and-continents">
+                            <img src="GoogleMaps_64_transparent.svg" alt="">
+                            <a href="">Asia</a>
+                        </li>
+                        <li class="countries-and-continents">
+                            <img src="GoogleMaps_64_transparent.svg" alt="">
+                            <a href="">Europe</a>
+                        </li>
+                        <li class="countries-and-continents">
+                            <img src="GoogleMaps_64_transparent.svg" alt="">
+                            <a href="">USA & Canada</a>
+                        </li>
+                        <li class="countries-and-continents">
+                            <img src="GoogleMaps_64_transparent.svg" alt="">
+                            <a href=""> The rest of the world</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="national">
+                <div class="national-1">
+                    <!-- tag-1 -->
+                    <div class="tag-national">
+                        <div class="tag-tourist">
+                            <div class="tag-tourist-destination-place">
+                                <a href="">London - UK</a>
+                                <br>
+                                <span>1289</span>
+                                <small> properties</small>
+                            </div>
+                            
+                        </div>
+                        <div class="tag-tourist-destination">
+                            <div class="tag-tourist-destination-img">
+                                <img src="http://tk-themes.net/html-bookawesome/images/destinations/img-1.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- tag2-->
+                    <div class="tag-national">
+                        <div class="tag-tourist">
+                            <div class="tag-tourist-destination-place">
+                                <a href="">Paris - France</a>
+                                <br>
+                                <span>239</span>
+                                <small> properties</small>
+                            </div>
+                            
+                        </div>
+                        <div class="tag-tourist-destination">
+                            <div class="tag-tourist-destination-img">
+                                <img src="http://tk-themes.net/html-bookawesome/images/destinations/img-2.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- tag3-->
+                    <div class="tag-national tag-national-3">
+                        <div class="tag-tourist">
+                            <div class="tag-tourist-destination-place">
+                                <a href="">Rome - Italy</a>
+                                <br>
+                                <span>478</span>
+                                <small> properties</small>
+                            </div>
+                            
+                        </div>
+                        <div class="tag-tourist-destination">
+                            <div class="tag-tourist-destination-img">
+                                <img src="http://tk-themes.net/html-bookawesome/images/destinations/img-3.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="national-2">
+                    <!-- tag-1 -->
+                    <div class="tag-national">
+                        <div class="tag-tourist">
+                            <div class="tag-tourist-destination-place">
+                                <a href="">Barcelona - Spain</a>
+                                <br>
+                                <span>452</span>
+                                <small> properties</small>
+                            </div>
+                            
+                        </div>
+                        <div class="tag-tourist-destination">
+                            <div class="tag-tourist-destination-img">
+                                <img src="http://tk-themes.net/html-bookawesome/images/destinations/img-4.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- tag2-->
+                    <div class="tag-national">
+                        <div class="tag-tourist">
+                            <div class="tag-tourist-destination-place">
+                                <a href="">Madrid - Spain</a>
+                                <br>
+                                <span>794</span>
+                                <small> properties</small>
+                            </div>
+                            
+                        </div>
+                        <div class="tag-tourist-destination">
+                            <div class="tag-tourist-destination-img">
+                                <img src="http://tk-themes.net/html-bookawesome/images/destinations/img-5.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- tag3-->
+                    <div class="tag-national tag-national-3">
+                        <div class="tag-tourist">
+                            <div class="tag-tourist-destination-place">
+                                <a href="">Vienna - AustriaK</a>
+                                <br>
+                                <span>1289</span>
+                                <small> properties</small>
+                            </div>
+                            
+                        </div>
+                        <div class="tag-tourist-destination">
+                            <div class="tag-tourist-destination-img">
+                                <img src="http://tk-themes.net/html-bookawesome/images/destinations/img-6.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="notification-end">
+            <div class="menu menu-notification">
+                <div class="notification-content">
+                    <h3>Top Travel Destinations</h3>
+                </div>
+                <div class="notification-button">
+                    <a href="#">VIEW ALL</a>
+                    <img class="button-arrow"
+                        src="D:\OneDrive - University of Economics and Finance - UEF\Hoc tap\Leran_website\Web\img\arrow-right.svg"
+                        alt="">
+                </div>
+            </div>
+        </div>
+        <div class="tag-magazine-main">
+            <div class="tag-magazine">
+                <div class="magazine">
+                    <div class="magazine-info">
+                        <div class="magazine-title">
+                            <h4>Five festivals to look forward to this year</h4>
+                        </div>
+                        <div class="magazine-date">
+                            <span>by Admin - 03.5.2014</span>
+                        </div>
+                        <div class="hr-bold">
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="magazine-content">
+                        <div>
+                            <p>   
+                                Suspendisse ullamcorper lacus et commodo laoreet. Sed sodales aliquet felis, quis volutpat massa imperdiet in. Praesent rutrum malesuada risus, ullamcorper pretium tortor. Mauris lacinia nisl id massa consectetur, eu tempus mauris lacinia. Fusce commodo porttitor sapien quis condimentum.
+                            </p>
+                        </div>
+            
+                        <div>
+                            <p>   
+                                Curabitur sollicitudin magna sed sem blandit sodales. Integer in eros sit amet tellus vulputate laoreet ut in purus. Nullam quis lacus nisl.
+                                Sed venenatis commodo leo, ac pulvinar ipsum mattis vitae. Suspendisse eu libero odio.
+                            </p>
+                        </div>
+            
+                        <div>
+                            <p>   
+                                Curabitur sollicitudin magna sed sem blandit sodales. Integer in eros sit amet tellus vulputate laoreet ut in purus. Nullam quis lacus nisl.
+                                Sed venenatis commodo leo, ac pulvinar ipsum mattis vitae.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="social-networking">
+                        <div class="icon-social-networking">
+                            <img src="https://img.icons8.com/ios/344/facebook-circled--v1.png" alt="facebook">
+                            <img src="https://img.icons8.com/ios/344/twitter-circled--v1.png" alt="twitter">
+                            <img src="https://cdn3.iconfinder.com/data/icons/social-media-circle-flat-1/1024/g-01-01-512.png" alt="google-plus">
+                        </div>
+                        <div class="notification-button">
+                            <a href="#">VIEW MORE</a>
+                            <img class="button-arrow"
+                                src="D:\OneDrive - University of Economics and Finance - UEF\Hoc tap\Leran_website\Web\img\arrow-right.svg"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="magazine-place">
+                    <ul type="none">
+                        <li class="img-magazine">
+                            <img src="http://tk-themes.net/html-bookawesome/images/magazine/img-1.jpg" alt="">
+                            <div class="magazine-text">
+                                <h4>Thailand by Train with Eastern and Oriental Express</h4>
+                                <span>03.5.2014</span>
+                            </div>
+                        </li>
+                        <li class="img-magazine">
+                            <img src="http://tk-themes.net/html-bookawesome/images/magazine/img-2.jpg" alt="">
+                            <div class="magazine-text">
+                                <h4>Thailand by Train with Eastern and Oriental Express</h4>
+                                <span>03.5.2014</span>
+                            </div>
+                        </li>
+                        <li class="img-magazine">
+                            <img src="http://tk-themes.net/html-bookawesome/images/magazine/img-3.jpg" alt="">
+                            <div class="magazine-text">
+                                <h4>Thailand by Train with Eastern and Oriental Express</h4>
+                                <span>03.5.2014</span>
+                            </div>
+                        </li>
+                        <li class="img-magazine">
+                            <img src="http://tk-themes.net/html-bookawesome/images/magazine/img-3.jpg" alt="">
+                            <div class="magazine-text">
+                                <h4>Thailand by Train with Eastern and Oriental Express</h4>
+                                <span>03.5.2014</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-promise" >
+            <div class="mold-promise">
+                <div class="tag-mold-promise-1">
+                    <div class="confidence-title confidence-title-1">
+                        <h3>Book with confidence</h3>
+                    </div>
+                    <div class="confidence-list">
                         <ul type="none">
-                            <li class="click">HOME</li>
-                            <li class="click">PAGES</li>
-                            <li class="click">HOTEL</li>
-                            <li class="click">FLIGHTS</li>
-                            <li class="click">CAR</li>
-                            <li class="click">CRUISES</li>
-                            <li class="click">TOUR</li>
+                            <li class="confidence-click">
+                                <div class="confidence-click-stt">
+                                    <span>01</span>
+                                </div>
+                                <div class="confidence-click-title">
+                                    <div class="confidence-click-parahrap">
+                                        <h5>No booking charges</h5>
+                                        <p>We don't charge you an extra fee for booking a hotel room with us</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="confidence-click">
+                                <div class="confidence-click-stt">
+                                    <span>02</span>
+                                </div>
+                                <div class="confidence-click-title">
+                                    <div class="confidence-click-parahrap">
+                                        <h5>No cancellation fees</h5>
+                                        <p>We don't charge you a cancellation or modification fee in case plans change</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="confidence-click">
+                                <div class="confidence-click-stt">
+                                    <span>03</span>
+                                </div>
+                                <div class="confidence-click-title">
+                                    <div class="confidence-click-parahrap">
+                                        <h5>Instant confirmation</h5>
+                                        <p>Instant booking confirmation whether booking online or via the telephone</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="confidence-click">
+                                <div class="confidence-click-stt">
+                                    <span>04</span>
+                                </div>
+                                <div class="confidence-click-title">
+                                    <div class="confidence-click-parahrap">
+                                        <h5>Flexible booking</h5>
+                                        <p>You can book up to a whole year in advance until the moment of your stay</p>
+                                    </div>
+                                </div>
+                            </li>
                         </ul>
+                    </div>
+                </div>
+                <div class="tag-mold-promise-2">
+                    <div class="confidence-title confidence-title-secon">
+                        <p>
+                            Subscribe to our newsletter
+                        </p>
+                    </div>
+                    <div class="confidence-text">
+                        <p>
+                            Enter your email address and we’ll send you our regular promotional emails,
+                            acked with special o  ffers, great deals, and huge discounts
+                        </p>
+                    </div>
+                    <div class="confidence-button">
+                        <input class="confidence-input" type="text" name = "input" id = "input" placeholder="Your Email">
+                        <button onclick="myFunction()">
+                            SUBCRIBLE
+                            <img src="https://img.icons8.com/ios/344/right--v1.png" alt="">
+                        </button>
+                    </div>
+                    <script>
+                        function myFunction() {
+                          alert("Web code chưa xong bấm vô cũng như không lêu lêu ");
+                        }
+                        </script>
+                    <div class="Follow-us">
+                        <h4>Follow-us</h4>
+                    </div>
+                    <div class="follow-group">
+                        <div class="follow-group-mini follow-group-img facebook ">
+                            <a href="#">
+                                <img src="https://th.bing.com/th/id/OIP.qAvEb6dwa1l715giSS_qBAHaHa?pid=ImgDet&rs=1" alt="">
+                            </a>
+                        </div>
+                        <div class="follow-group-mini follow-group-img twitter">
+                            <a href="#">
+                                <img src="https://th.bing.com/th/id/R.05c8a3da0cdfc3adaa4e6dd047f2b38f?rik=7hgGbWqxXCi8%2bg&pid=ImgRaw&r=0" alt="">
+                            </a>
+                        </div>
+                        <div class="follow-group-mini follow-group-img pinterest">
+                            <a href="#">
+                                <img src="https://www.freeiconspng.com/uploads/pinterest-icon-black-2.png" alt="">
+                            </a>
+                        </div>
+                        <div class="follow-group-mini follow-group-img linkedin">
+                            <a href="#">
+                                <img src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/344/external-linkedin-a-business-and-employment-oriented-service-mobile-app-logo-bold-tal-revivo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="follow-group-mini follow-group-img instagram">
+                            <a href="#">
+                                <img src="https://img.icons8.com/ios-glyphs/344/instagram.png" alt="">
+                            </a>
+                        </div>
+                        <div class="follow-group-mini follow-group-img google-plus">
+                            <a href="#">
+                                <img src="https://th.bing.com/th/id/R.de29212d82fdc307732aeb6b74694cc2?rik=JGAxpvxlcLpbgA&pid=ImgRaw&r=0" alt="">
+                            </a>
+                        </div>
+                        <div class="follow-group-mini follow-group-img digg">
+                            <a href="#">
+                                <img src="https://img.icons8.com/material/344/digg.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fotter-end">
+            <div class="tag-magazine container-end-logo">
+                <div class="fotter-end col-4">
+                    <img src="http://tk-themes.net/html-bookawesome/images/logo-footer.png" alt="">
+                </div>
+                <div class="fotter-end col-2">
+                    <ul type="none">
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">FQA</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="fotter-end col-2">
+                    <ul type="none">
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Term of Service</a>
+                        </li>
+                        <li>
+                            <a href="#">Security</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="fotter-end col-4 slection">
+                    <div class="selection-language-national">
+                        <div class="tag-slection tag-slection-language">
+                            <select name="language-national" class="language">
+                                <option value="option">English</option>
+                                <option value="option">Bahasa Melayu</option>
+                                <option value="option">Català</option>
+                                <option value="option">Deutsh</option>
+                                <option value="option">Francais</option>
+                                <option value="option">Italiano</option>
+                            </select>
+                        </div>
+                        <div class="tag-slection tag-slection-national">
+                            <select name="language-national" class="nationnal">
+                                <option value="option">US</option>
+                                <option value="option">ARS</option>
+                                <option value="option">ADU</option>
+                                <option value="option">CAD</option>
+                                <option value="option">CHF</option>
+                                <option value="option">CNY</option>
+                                <option value="option">CZK</option>
+                              </select>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <p>
+                            © 2009 – 2014 Bookyourtrip™ All rights reserved.
+                        </p>
                     </div>
                 </div>
             </div>

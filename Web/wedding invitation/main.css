@@ -1,0 +1,487 @@
+.container-fluid
+{
+    width: 100%;
+}
+.icon-serch
+{
+    position: relative;
+    right: 35px;
+    top: 5px;
+}
+.col input
+{
+    height: 40px;
+    margin-left: 25px;
+    font-size: 15px;
+}
+::placeholder
+{
+    padding-left: 15px;
+}
+.col-6 
+{
+    margin: auto;
+}
+.col >.btn
+{
+    border: none;
+    background-color: white;
+}
+.col >.btn-primary
+{
+    border-right: 1px solid grey;
+}
+.navbar-nav
+{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    border-bottom: 0.5px solid #e1e1e1;
+}
+.nav-item-first
+{
+    color: rgb(44, 90, 183);
+}
+
+.nav-item a
+{
+    padding-left:20px;
+    padding-right:20px;
+    text-decoration: none;
+    font-family: Basis Grotesque,ui-sans-serif,Helvetica;
+    color: rgb(51 51 51/var(--tw-text-opacity));
+    letter-spacing: 2px;
+}
+.container
+{
+    position: relative;
+    top: 25px;
+    height: 720px;
+    width: 1420px;
+    margin: auto;
+    background-image: url("https://ssr-releases-cdn.paperlesspost.com/_next/static/video/DesktopHeroPoster-26b405df0f5e0cab8d6eed21c581b750.jpg");
+}
+.container-sm
+{
+    width: 720px;
+    margin: auto;
+}
+.container-sm
+{
+    text-align: center;
+}
+.container-sm h1
+{
+    font-size: 49px;
+    font-weight: 500;
+    color: white;
+    position: relative;
+    top: 65px;
+}
+.nav
+{
+    width: 720px;
+    margin: auto;
+    text-align: center;
+}
+.nav>.nav-link
+{
+    position: relative;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-family: Basis Grotesque,ui-sans-serif,Helvetica;
+    color: white;
+    font-weight: 700;
+    font-weight: 700;
+    top: 65px;
+}
+.container-fluid-h1
+{
+    top: 20px ;
+    position: relative;
+    padding-top: 10px;
+}
+.container-fluid-p
+{
+    text-align: center;
+    font-size: 45px;
+    font-family: Plantin,ui-serif,Georgia,serif;
+}
+.container-fluid-p2
+{
+    text-align: center;
+    font-size: 45px;
+    font-family: Basis Grotesque,ui-sans-serif,Helvetica Neue,Arial,sans-serif
+}
+.container-lg-card
+{
+    width: 1140px;
+    display: flex;
+    justify-content: space-around;
+    text-align: left
+}
+.container-lg-card>.card
+{
+   
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.card-body 
+{
+    padding-left: 30px;
+}
+.card-title
+{
+    text-align: left;
+    font-weight: 500;
+    font-size: 40px;
+    font-family: Basis Grotesque,ui-sans-serif,Helvetica Neue,Arial,sans-serif;
+}
+.card-text
+{
+    text-align: left;
+    font-family: Basis Grotesque,ui-sans-serif,Helvetica Neue,Arial,sans-serif;
+    font-weight: 600;
+    margin-top: -40px;
+
+}
+.link-browse
+{
+    font-family:Basis Grotesque,ui-sans-serif,Helvetica Neue,Arial,sans-serif ;
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    position: relative;
+}
+.list-group
+{
+    padding-left: 15px;
+    line-height: 30px;
+    font-family:Basis Grotesque,ui-sans-serif,Helvetica Neue,Arial,sans-serif ;
+}
+.list-group-item
+{
+    text-align: left;
+}
+.card-group
+{
+    border: 1px solid red;
+}
+.row-cols-md-3
+{
+    display: flex;
+    margin: auto;
+}
+.row-cols-md-3>.col
+{
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 350px;
+    height: 500px;
+}
+.col-th-1
+{
+    background-color: rgb(105, 134, 40);
+}
+.col-th-2
+{
+    background-color: rgb(251, 242, 212);
+}
+.col-th-2 img
+{
+    position: relative;
+    top: 30px;
+}
+.col-th-3
+{
+    background-color: rgb(139, 185, 211);
+}
+.col-th-4
+{
+    background-color: rgb(240, 215, 211);
+}
+.card-img-top img
+{
+    width: 100%;
+}
+.card-img-1
+{
+    padding-right: 10px;
+}
+.card-img-2
+{
+    padding-left: 10px;
+}
+.container-fluid-button
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.container-fluid-button button
+{
+    border: none;
+    color: white;
+    background-color: rgb(51 51 51);
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: Basis Grotesque,ui-sans-serif,Helvetica Neue,Arial,sans-serif;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+.container-fluid-8-4
+{
+    width: 1440px;
+    margin: auto;
+}
+.container-fluid-8-4>.row
+{
+    display: flex;
+}
+.row>.col-8 
+{
+    background-color: #F1C7E0;
+    width: 66%;
+    margin-right:15px ;
+}
+.row>.col-4
+{
+    width: 34%;
+    background-color: #fff770;
+    flex: 4;
+    margin-right:15px ;
+}
+.row>.col-4 img
+{
+    width: 100%;
+}
+.row>.col-8 img
+{
+    width: 100%;
+}
+.container-fluid-4-8
+{
+    margin: auto;
+    margin-bottom: 30px;
+}
+.row>.col-4-th2
+{
+    background-color:#c8e4eb ;
+}
+.row>.col-8-th2
+{
+    background-color: #fcf7ec ;
+
+}
+.container-img img
+{
+    width: 100%;
+}
+.container-img 
+{
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container-img-th2
+{
+    background-color: #d0bff6;
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+    
+}
+.col-1-img-th2
+{
+    flex: 1;
+}
+.col-2-img-th2
+{ 
+    flex: 1;
+}
+.col-2-img-th2 img
+{
+    width: 100%;
+}
+.img-th2-text
+{
+    padding: 64px 96px;
+    text-align: center;
+    font-family: Basis Grotesque,ui-sans-serif,Helvetica Neue,Arial,sans-serif;
+    position: relative;
+    top: 60px;
+}
+.img-th2-text h2
+{
+    font-size: 50px;
+    font-weight: 100;
+}
+.img-th2-text p
+{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+.img-th2-text a
+{
+   color: black;
+   font-size: 14px;
+   font-weight: 400;
+   text-decoration: none;
+}
+.container-img-th3
+{
+    margin: auto;
+    
+}
+.row-img-th3
+{
+    background-color: #f9ede7;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+    line-height: 38px;
+}
+.col-1-img-th3 img 
+{
+    width: 100%;
+}
+.col-1-img-th3-top
+{
+    padding: 50px 50px;
+}
+.col-1-img-th3-top img
+{
+    width: 35%;
+}
+.col-1-img-th3-top
+{
+    text-align: center;
+    position: relative;
+    font-family: Basis Grotesque,ui-sans-serif,Helvetica Neue,Arial,sans-serif;
+    top: 50px;
+}
+.col-1-img-th3-top h2
+{
+    font-family: Plantin,ui-serif,Georgia,serif;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 20px;
+    line-height: 50px;
+    margin-bottom: -15px;
+}
+.col-1-img-th3-top p
+{
+    font-size: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+.col-1-img-th3-top button
+{
+    border: none;
+    background-color: black;
+    color: white;
+    letter-spacing: 2px;
+    padding: 20px;
+    top: 10px;
+}
+.container-text
+{
+    margin: auto;
+}
+.container-text h3
+{
+    font-weight: 500;
+    font-size: 20px;
+    font-family: arial;
+}
+.container-card
+{
+    width: 1600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* .card.mb-3 
+{
+    
+} */
+.card.mb-3 h5
+{
+    font-family: Plantin,ui-serif,Georgia,serif;
+    font-size: 28px;
+    font-weight: 100;
+    font-weight: 100;
+    position: relative;
+    left: 25px;
+}
+.row
+{
+  
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.col-md-8 span
+{
+    font-family: Basis Grotesque,ui-sans-serif,Helvetica Neue,Arial,sans-serif;
+    font-weight: 400;
+    position: relative;
+    left: 25px;
+}
+.container-end
+{
+    width: 1600px;
+    margin: auto;
+}
+.row-end
+{
+    display: flex;
+}
+.col-end
+{
+    flex:1;
+}
+.col-end-img img
+{
+    width: 6%;
+    padding-right: 15px;
+}
+.container-md-end
+{
+    padding-top: 30px;
+    width: 1100px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.span-end
+{
+    border-right: 1px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: rgb(51 51 51);
+    letter-spacing: 1px;
+}

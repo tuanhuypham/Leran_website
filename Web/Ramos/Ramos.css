@@ -110,9 +110,7 @@ body
 	top: 0;
 	left: 100%;
 	background: #ffd900;
-
 	z-index: 1;
-
 	transition: all 0.30s;
 }
 

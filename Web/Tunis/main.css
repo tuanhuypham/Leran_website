@@ -22,6 +22,7 @@ body
 }
 .img
 {
+    background-image: url("/static/media/dark.fcd7feb934db7b81903a.jpg");
     margin: 41px;
 	margin-top: 41px;
     margin-bottom: 45px;
