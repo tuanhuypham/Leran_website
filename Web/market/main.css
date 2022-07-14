@@ -88,7 +88,11 @@ ul {
 
 .icon:hover::after {
     opacity: 1;
+    position: absolute;
+    content: '';
+    border: 17px solid transparent;
     transition: all 0.5s;
+    border-bottom-color: #59c45a;
 }
 
 .icon-menu {
@@ -97,11 +101,21 @@ ul {
 
 .icon::after {
     position: absolute;
-    top: 467px;
+    top: 466px;
     content: '';
     border: 17px solid transparent;
     border-bottom-color: #59c45a;
     opacity: 0;
+    overflow: hidden;
+}
+
+.icon-2::after {
+    position: absolute;
+    top: 466px;
+    content: '';
+    border: 17px solid transparent;
+    border-bottom-color: #59c45a;
+    opacity: 1;
 }
 
 .icon {
@@ -163,10 +177,12 @@ ul {
 }
 
 .stt-2 input {
+    background: url(http://tk-themes.net/html-bookawesome/images/icon-calendar.png) no-repeat right center;
     width: 88%;
 }
 
 .stt-3 input {
+    background: url(http://tk-themes.net/html-bookawesome/images/icon-calendar.png) no-repeat right center;
     width: 88%;
 }
 
@@ -185,6 +201,7 @@ ul {
     font-weight: 500;
     font-size: 14px;
     border-bottom: 1px dashed;
+    outline: none;
 }
 
 .button-serch-stt {
@@ -374,6 +391,8 @@ ul {
     right: 0;
     bottom: 0;
     margin: auto;
+    transition: all 0.3s ease-in-out;
+    transform: translate(0, 30px);
     font-size: 20px;
     font-family: Georgia;
     font-style: italic;
@@ -404,33 +423,31 @@ ul {
 .coating {
     position: absolute;
     background-color: rgba(255, 255, 255, 0.6);
-    padding-bottom: 300px;
+    padding-bottom: 330px;
     padding-left: 300px;
     opacity: 0;
 }
 
 .coating:hover {
     opacity: 1;
-    transition: all 0.75s;
-}
-
-.discount {
-    border: 1px solid rebeccapurple;
-    padding: 20px;
-    position: relative;
+    transition: all 0.3s ease-in-out;
+    transform: translate(0, -30px);
+    transition: all 0.5s;
 }
 
 .coating-big {
     position: absolute;
     background-color: rgba(255, 255, 255, 0.6);
-    padding-bottom: 300px;
+    padding-bottom: 330px;
     padding-left: 600px;
     opacity: 0;
 }
 
 .coating-big:hover {
     opacity: 1;
-    transition: all 0.75s;
+    transition: all 0.3s ease-in-out;
+    transform: translate(0, -30px);
+    transition: all 0.55s;
 }
 
 .coating-big figcaption {
@@ -444,6 +461,8 @@ ul {
     right: 0;
     bottom: 0;
     margin: auto;
+    transition: all 0.3s ease-in-out;
+    transform: translate(0, 30px);
     font-size: 20px;
     font-family: Georgia;
     font-style: italic;
@@ -469,6 +488,12 @@ ul {
     transform: rotate(45deg);
     transform: rotate(45deg);
     z-index: -1;
+}
+
+.discount {
+    border: 1px solid rebeccapurple;
+    padding: 20px;
+    position: relative;
 }
 
 .hr {
