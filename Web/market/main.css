@@ -45,7 +45,8 @@ body {
 }
 
 ul {
-    padding: 0;
+    padding: 0px;
+    margin: 0px;
 }
 
 .click {
@@ -101,7 +102,7 @@ ul {
 
 .icon::after {
     position: absolute;
-    top: 466px;
+    top: 450px;
     content: '';
     border: 17px solid transparent;
     border-bottom-color: #59c45a;
@@ -111,7 +112,7 @@ ul {
 
 .icon-2::after {
     position: absolute;
-    top: 466px;
+    top: 450px;
     content: '';
     border: 17px solid transparent;
     border-bottom-color: #59c45a;
@@ -235,6 +236,8 @@ ul {
     border-left: 1px solid #e8e4e4;
     padding-left: 10px;
     padding-right: 1px;
+    display: flex;
+    position: relative
 }
 
 .button-serch-stt.stt-1 {
@@ -243,6 +246,26 @@ ul {
 
 .stt-1 {
     width: 450px;
+}
+
+.button-serch-stt-button button {
+    border: none;
+    background-color: #34b934;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 60px;
+    letter-spacing: 2px;
+    color: white;
+    font-family: inherit;
+    font-size: 18px;
+}
+
+.button-serch-stt-button img {
+    width: 19px;
+    position: absolute;
+    right: 33px;
+    top: 20px;
 }
 
 .menu-notification {
@@ -683,7 +706,8 @@ ul {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
-    margin-top: 1;
+    margin-top: 1px;
+    margin-bottom: 25px;
 }
 
 .hr-bold hr {
@@ -705,6 +729,7 @@ ul {
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
+    padding-top: 15px;
 }
 
 .social-button {
@@ -717,7 +742,6 @@ ul {
 .img-magazine {
     display: flex;
     flex-direction: row;
-    border-bottom: 1px dashed gray;
 }
 
 .img-magazine-1::after {
@@ -762,6 +786,7 @@ ul {
 .magazine-place {
     background-color: white;
     margin-top: 1px;
+    margin-bottom: 25px;
 }
 
 .img-magazine h4 {
@@ -792,6 +817,15 @@ ul {
 .magazine-text {
     padding: 15px 15px 15px 30px;
     display: table-cell;
+    border-bottom: 1px dashed;
+}
+
+.magazine-text-4 {
+    border: none;
+}
+
+.img-magazine-4 {
+    border: none;
 }
 
 .confidence-click-stt span {
