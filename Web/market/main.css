@@ -173,29 +173,26 @@ ul {
     position: relative;
 }
 
-.stt-1 input {
-    width: 93%;
-}
-
 .stt-2 input {
     background: url(http://tk-themes.net/html-bookawesome/images/icon-calendar.png) no-repeat right center;
-    width: 88%;
+    background-position-x: 98%;
 }
 
 .stt-3 input {
     background: url(http://tk-themes.net/html-bookawesome/images/icon-calendar.png) no-repeat right center;
-    width: 88%;
 }
 
  ::placeholder {
     color: green;
 }
 
+.stt-4 label {
+    width: 100%;
+}
+
 .stt-4 select {
     padding-top: 12px;
-    padding-left: 25px;
     padding-bottom: 5px;
-    padding-right: 35px;
     border: none;
     color: green;
     font-family: system-ui;
@@ -203,23 +200,35 @@ ul {
     font-size: 14px;
     border-bottom: 1px dashed;
     outline: none;
-    width: 95%;
+    width: 100%;
 }
 
 .button-serch-stt {
     padding-top: 10px;
     padding-bottom: 10px;
+    flex: 1;
+}
+
+.button-serch-stt label {
+    padding-right: 10px;
+    width: 100%;
+    padding-right: 10px;
+}
+
+.button-serch-stt label .button-serch-stt.stt-1 label {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
 }
 
 .button-serch-stt input {
-    padding: 5px;
     border: none;
-    padding-bottom: 0px;
-    padding-top: 15px;
     border-bottom: 1px dashed green;
     font-size: 19px;
     font-family: inherit;
     outline: none;
+    height: 37px;
+    width: 100%;
 }
 
 .form-serch {
@@ -242,10 +251,7 @@ ul {
 
 .button-serch-stt.stt-1 {
     border-left: none;
-}
-
-.stt-1 {
-    width: 450px;
+    flex: 3
 }
 
 .button-serch-stt-button button {
