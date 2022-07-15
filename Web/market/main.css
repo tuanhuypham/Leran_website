@@ -202,6 +202,7 @@ ul {
     font-size: 14px;
     border-bottom: 1px dashed;
     outline: none;
+    width: 95%;
 }
 
 .button-serch-stt {
@@ -242,18 +243,6 @@ ul {
 
 .stt-1 {
     width: 450px;
-}
-
-.button-serch-stt-button button {
-    border: none;
-    padding-right: 50px;
-    padding-left: 50px;
-    padding-bottom: 12px;
-    padding-top: 12px;
-    background-color: #59c45b;
-    color: white;
-    font-size: 14px;
-    font-family: inherit;
 }
 
 .menu-notification {
