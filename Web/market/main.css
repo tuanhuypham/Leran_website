@@ -234,6 +234,7 @@ ul {
 .form-serch {
     display: flex;
     background-color: white;
+    height: 70px;
 }
 
 .serch-tag {
@@ -241,7 +242,6 @@ ul {
 }
 
 .button-serch-stt {
-    width: 175px;
     border-left: 1px solid #e8e4e4;
     padding-left: 10px;
     padding-right: 1px;
@@ -296,14 +296,23 @@ ul {
 .notification-button {
     font-size: 14px;
     border: 1px solid gray;
-    padding: 10px 65px 14px 26px;
-    line-height: 21px;
-    font-family: system-ui, -apple-system,
+    line-height: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #333333;
+    background-color: #fff;
+    letter-spacing: 1px;
+    font-weight: normal;
+    padding-right: 35px;
+    padding-left: 20px;
+}
+
+.notification-button a::before {
+    color: #34b934;
 }
 
 .button-arrow {
     position: relative;
-    left: 50px;
+    left: 20px;
     top: 6px;
 }
 
@@ -311,10 +320,6 @@ ul {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-decoration: none;
     color: #333333;
-}
-
-.notification-button a:hover {
-    color: #25ab4b;
 }
 
 .notification {
@@ -905,20 +910,21 @@ ul {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     padding-right: 40px;
+    padding-bottom: 40px;
 }
 
 .confidence-title-1 h3 {
     color: #fff;
     margin: 0;
     line-height: 28px;
-    padding: 30px 0;
+    padding: 40px 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     font-weight: 300;
 }
 
 .confidence-title-secon {
     margin: 0;
-    line-height: 28px;
+    line-height: 50px;
     padding: 7px;
     border-bottom: 1px solid #dbd4d4;
     font-size: 23px;
