@@ -19,27 +19,38 @@ ul {
     padding-right: 15px;
 }
 .sub-menu{
-    
     position: absolute;
     top: 0px;
-    left: 88px;
+    right: -200px;
     display: none;
     padding-left: 0;
+    background: white;
+    padding-left: 10px;
+    width: 190px;
+}
+.menu-parent>li{
+    width: 170px;
+    height: 49px;
+    line-height: 49px;
+    font-size: 14px;
+    background: white;
+    padding-left: 10px;
 }
 .menu-parent{
     position: absolute;
-    left: -15px;
-    top: 72px;
+    left: 15px;
+    top: 85px;
     display: none;
+    padding-left: 0;
 }
 .menu-parent>li:hover>.sub-menu{
     display: block;
-    background-color: red;
 }
 .container-menu {
     background-color: white;
     margin-top: -17px;
 }
+
 .main-menu>li:hover>.menu-parent{
     display: block;
 }
@@ -70,14 +81,14 @@ ul {
     height: 83px;
     line-height: 44px;
     position: relative;
-    top: 8px;
+    top: 4px;
 }
 .main-menu {
     display: flex;
 }
 .main-menu>li{
     padding-top: 20px;
-    padding-bottom: 21px;
+    padding-bottom: 24px;
     position: relative;
     bottom: 16px;
     padding-right: 25px;
