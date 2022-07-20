@@ -4,6 +4,14 @@ body {
     background-color: #f1f1f1;
 }
 
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
 .menu {
     max-width: 1200px;
     margin: auto;
@@ -18,7 +26,7 @@ body {
 
 .content {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -39,45 +47,66 @@ body {
     padding-bottom: 20px;
 }
 
-.button {
-    width: 100%;
-    margin-left: 120px;
+.main-menu {
+    display: flex;
 }
 
-ul {
-    padding: 0px;
-    margin: 0px;
+.main-menu>li {}
+
+.main-menu li {
+    padding: 5px 23px;
+    position: relative;
+    bottom: -1px;
 }
 
-.click {
-    float: left;
-    padding-left: 10px;
-    padding-right: 10px;
+.main-menu>li:hover {
+    background: rgb(68, 201, 56);
 }
 
-.click a {
-    text-decoration: none;
-    color: black;
+.main-menu>li:hover>.menu-parent {
+    display: block;
 }
 
-.click-text {
-    float: left;
-    padding-top: 45px;
-    padding-bottom: 39px;
-    padding-left: 25px;
-    padding-right: 25px;
-    font-family: inherit;
+
+/* menu-parent */
+
+.menu-parent {
+    display: none;
+    position: absolute;
+    top: 29px;
+    left: 0px;
+    padding-left: 0px;
 }
 
-.click-text:hover {
-    background-color: #59c45a;
+.menu-parent li {
+    width: 250px;
+    border: 1px solid white;
+}
+
+.menu-parent a {
     color: white;
-    transition: all 0.5s;
 }
 
-.click-text-1 {
-    background-color: #59c45a;
-    color: white;
+.menu-parent li:hover {
+    background-color: #25ab4b;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    top: -1px;
+    right: -100%;
+    padding-left: 0px;
+}
+
+.menu-parent.sub-menu {
+    top: 0;
+    left: auto;
+    right: -100%;
+}
+
+.menu-parent>li:hover>.sub-menu {
+    display: block;
 }
 
 .icon-menu {
@@ -268,10 +297,10 @@ ul {
 }
 
 .button-serch-stt-button img {
-    width: 19px;
+    width: 20px;
     position: absolute;
-    right: 33px;
-    top: 20px;
+    right: 25px;
+    top: 25px;
 }
 
 .menu-notification {
@@ -293,7 +322,7 @@ ul {
     font-size: 24px;
 }
 
-.notification-button {
+.notification-button button{
     font-size: 14px;
     border: 1px solid gray;
     line-height: 50px;
@@ -304,6 +333,7 @@ ul {
     font-weight: normal;
     padding-right: 35px;
     padding-left: 20px;
+    border: 1px solid #d1cdcd;
 }
 
 .notification-button a::before {
@@ -320,6 +350,12 @@ ul {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-decoration: none;
     color: #333333;
+}
+
+.notification-button img {
+    position: relative;
+    top: 6px;
+    left: 20px;
 }
 
 .notification {
@@ -590,6 +626,10 @@ ul {
     padding-top: 25px;
 }
 
+.recommend ul {
+    padding-left: 0;
+}
+
 .recommend-place {
     width: 30%;
     color: white;
@@ -837,6 +877,10 @@ ul {
 
 .img-magazine-4 {
     border: none;
+}
+
+.confidence-list ul {
+    padding-left: 0;
 }
 
 .confidence-click-stt span {
