@@ -29,6 +29,9 @@
     font-weight: 700;
     font-style: italic;
 }
+.background-drink img{
+    width: 100%;
+}
 #cohoi
 {
     font-family: Tahoma, Geneva, sans-serif;
