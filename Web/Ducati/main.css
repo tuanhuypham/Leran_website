@@ -10,7 +10,7 @@ ul>li{
     left: -15px;
 }
 .logo-img img{
-    width: 20px;
+    width: 100px;
 }
 .top-logo{
     background-image: url(https://th.bing.com/th/id/R.5827740621f96500e8accaa2a1ec909d?rik=vrWBQyrlKbmkeg&pid=ImgRaw&r=0);
@@ -57,6 +57,7 @@ a{
 }
 .logo-left{
     display: flex;
+    align-items: center;
 }
 .logo-text a{
     font-size: 12px;
