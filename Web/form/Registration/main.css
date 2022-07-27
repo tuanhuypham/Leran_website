@@ -1,0 +1,43 @@
+.check-box{
+    text-align: left;
+}
+body{
+    background-color: #f3f4f6;
+}
+
+.form{
+    border: 1px solid #d8d8d8;
+    border-radius: 6px;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color: #ebebeb;
+}
+.title>h1{
+    font-size: 32px;
+    margin-top: 0;
+    font-weight: 300;
+    font-family: Segoe UI;
+    color: #555555;
+}
+.input-email{
+    text-align: left;
+}
+.check-box label{
+    font-size: 15px;
+    font-weight: 400;
+    color: #4d4d4d;
+    font-family: Bahnschrift;
+}
+.input-email{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.check-box{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.control-input-email{
+    line-height: 2;
+}
