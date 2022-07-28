@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <link href="D:\OneDrive - University of Economics and Finance - UEF\Hoc tap\Leran_website\Web\font\fontawesome\css\all.min.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -15,38 +16,42 @@
             </div>
             <hr>
             <div class="check-box">
-                <input type="radio">
-                <label for="text">
-                    Personal
-                </label>
-                <input type="radio">
-                <label for="text">
-                    Company
-                </label>
+                <input type="radio" value="none" name="account" id="radioOne"checked/>
+                <label for="radioOne" class="radio">Personal</label>
+                <input type="radio" value="none" id="radioTwo" name="account" />
+                <label for="radioTwo" class="radio">Company</label>
             </div>
             <hr>
+            
             <div class="input-email">
                 <form  action="" class="control-input-email">
+                    <label id="icon" for="name">
+                        <i class="fas fa-envelope"></i>
+                    </label>
                     <input type="text" placeholder="Mail"><br>
+                    <label id="icon" for="name">
+                        <i class="fas fa-user"></i>
+                    </label>
                     <input type="text" placeholder="Name"><br>
-                    <input type="text" placeholder="PassWorld"><br>
+                    <label id="icon" for="name">
+                        <i class="fas fa-unlock"></i>
+                    </label>
+                    <input type="text" placeholder="Passworld"><br>
                 </form>
             </div>
             <hr>
             <div class="check-box">
-                <input type="radio">
-                <label for="text">Male</label>
-                <input type="radio">
-                <label for="text">Female</label>
-            </div>
+                <input type="radio" value="none" id="male" name="gender" checked/>
+                <label for="male" class="radio">Male</label>
+                <input type="radio" value="none" id="female" name="gender" />
+                <label for="female" class="radio">Female</label>
+              </div>
             <hr>
             <div class="clause">
                 <p>By clicking Register, you agree on our <a href="#"> Privacy Policy for W3Docs.</a></p>
             </div>
             <div class="submit">
-                <form action="#">
-                    <input type="submit" value="Submit">
-                </form>
+                <input type="submit" value="submit">
             </div>
         </div>
     </div>
