@@ -1,0 +1,39 @@
+.body{
+    width: 700px;
+    margin: 0 auto;
+    padding: 15px;
+}
+h1{
+    font-family: arial;
+    font-weight: 100;
+    font-size: 22px;
+}
+.control-input-frist{
+    display: flex;
+    justify-content:space-between;
+}
+.input{
+    text-align: right;
+}
+.table{
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top-color: aliceblue; 
+}
+.Submit{
+    display: flex;
+    justify-content: center;
+}
+.input-Birthdate{
+    display: flex;
+}
+.slection{
+    flex: 1;
+}
+.slection.slection-2{
+    flex: 2;
+}
+.personal-details{
+    text-align: left;
+}
