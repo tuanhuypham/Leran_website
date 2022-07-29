@@ -1,16 +1,25 @@
 .body{
-    width: 700px;
+    width: 1400px;
     margin: 0 auto;
-    padding: 15px;
+    border: 1px solid #d7d7d7;
+    padding: 20px;
+    border-radius: 4px;
 }
 h1{
-    font-family: arial;
+    font-family: arial ;
     font-weight: 100;
     font-size: 22px;
 }
 .control-input-frist{
     display: flex;
     justify-content:space-between;
+}
+.control-input-frist{
+    position: relative;
+    font-family: arial;
+    font-size: 13px;
+    color: gray;
+    line-height: 5px;
 }
 .input{
     text-align: right;
@@ -19,7 +28,7 @@ h1{
     border-left: none;
     border-right: none;
     border-bottom: none;
-    border-top-color: aliceblue; 
+    border-top: 1px solid #8ebf42;
 }
 .Submit{
     display: flex;
@@ -28,12 +37,69 @@ h1{
 .input-Birthdate{
     display: flex;
 }
-.slection{
-    flex: 1;
-}
-.slection.slection-2{
-    flex: 2;
-}
+
 .personal-details{
     text-align: left;
+}
+.table>legend{
+    color: #8ebf42;
+    font-size: 16px;
+    font-family: arial;
+    font-weight: 700;
+}
+.table-end a{
+    color: #8ebf42;
+}
+.Submit input:hover{
+    transition: all 0.75s;
+    background-color: #7fac3b; 
+}
+.Submit input{
+    width: 100%;
+    border-radius: 2px;
+    background-color: #8ebf42;
+    border: none;
+    color: white;
+    font-weight: 700;
+    padding: 10px 10px 10px 10px;
+}
+.input-left{
+    position: relative;
+    left: 35px;
+}
+.input-left input{
+    height: 25px;
+    width: 235px;
+}
+.input-right input{
+    height: 25px;
+}
+input{
+    outline: none;
+}
+.check-box{
+    display: flex;
+    align-items: center;
+}
+.input-left-2{
+    
+    position: relative;
+    left: 68px;
+}
+.input-right{
+    position: relative;
+    right: 300px;
+}
+.input-year input{
+    width: 35px;
+    height: 20px;
+}
+#fcountry{
+    height: 30px;
+    width: 245px;
+}
+.table-end{
+    font-size: 13px;
+    font-family: arial;
+    color: gray;
 }
