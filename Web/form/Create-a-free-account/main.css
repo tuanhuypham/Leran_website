@@ -4,6 +4,7 @@
     border: 1px solid #d7d7d7;
     padding: 20px;
     border-radius: 4px;
+    box-shadow: 0px 0px 8px -3px #8ebf42;
 }
 h1{
     font-family: arial ;
@@ -36,6 +37,8 @@ h1{
 }
 .input-Birthdate{
     display: flex;
+    position: relative;
+    right: 57px;
 }
 
 .personal-details{
@@ -69,7 +72,7 @@ h1{
 }
 .input-left input{
     height: 25px;
-    width: 235px;
+    width: 450px;
 }
 .input-right input{
     height: 25px;
@@ -80,6 +83,8 @@ input{
 .check-box{
     display: flex;
     align-items: center;
+    position: relative;
+    right: 60px;
 }
 .input-left-2{
     
@@ -88,18 +93,53 @@ input{
 }
 .input-right{
     position: relative;
-    right: 300px;
+    right: 10px;
 }
 .input-year input{
-    width: 35px;
+    width: 40px;
     height: 20px;
 }
 #fcountry{
     height: 30px;
-    width: 245px;
+    width: 458px;
 }
 .table-end{
     font-size: 13px;
     font-family: arial;
     color: gray;
+}
+#fpassworld{
+    height: 25px;
+    width: 400px;
+}
+#rp-passworld{
+    width: 400px;
+}
+.month{
+    height: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 230px;
+}
+.day{
+    height: 25px;
+    width: 120px;
+}
+.Nationality{
+    position: relative;
+    right: 65px;
+}
+#control-Nationality{
+    width: 410px;
+    height: 31px;
+}
+.input-right-2{
+    position: relative;
+    left: 60px;
+}
+.children-check-box{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 50px;
 }
