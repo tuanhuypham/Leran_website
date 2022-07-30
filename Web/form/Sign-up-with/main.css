@@ -1,0 +1,106 @@
+body{
+    background-image: url(https://www.w3docs.com/uploads/media/default/0001/01/49bff73f282c2c21f3341f1fe457fe35337b1792.jpeg);
+}
+h1{
+    font-family: arial;
+    font-weight: 100;
+    color: #666;
+    margin: 0;
+}
+.main{
+    margin-top: 100px;
+}
+.body{
+    width: 760px;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 3px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 20vh;
+    box-shadow: 8px 9px 10px -2px #525252
+}
+.left{
+    width: 367px;
+    
+    padding-right: 16px;
+}
+.left p{
+    font-family: arial;
+    color: gray;
+    font-size: 15px;
+}
+.right button {
+    margin-bottom: 10px;
+    height: 40px;
+    width: 100px;
+    padding-right: 300px;
+    padding-left: 20px;
+    border-radius: 5px;
+    border: 1px solid #cacaca;
+    box-shadow: 4px 5px 5px -3px #a3a3a3;
+}
+.right{
+    line-height: 40px;
+    position: relative;
+    left: 5px;
+}
+.Facebook{
+    background-color: #3a589e;
+    color: white;
+    display: flex;
+    align-items: center;
+    transition: all 0.5s;
+}
+.Facebook:hover{
+    transform: scale(1.03);
+}
+.fa-facebook-f:before {
+    content: "\f39e";
+}
+.Twitter{
+    background-color: #429cd6;
+    color: white;
+    display: flex;
+    align-items: center;
+    transition: all 0.5s;
+}
+.Twitter:hover{
+    transform: scale(1.03);
+}
+.fa-twitter:before {
+    content: "\f099";
+}
+.Facebook span{
+    padding: 10px;
+}
+.Google{
+    color: white;
+    background-color: #d34836;
+    display: flex;
+    align-items: center;
+    transition: all 0.5s;
+}
+.Google:hover{
+    transform: scale(1.03);
+}
+.fa-google:before {
+    content: "\f1a0";
+}
+i{
+    width: 50px;
+    font-size: 24px;
+    padding-right: 20px;
+}
+span{
+    font-size: 16px;
+}
+
+.hr{
+    border-right: 1px solid #b6b6b6;
+    height: 185px;
+}
