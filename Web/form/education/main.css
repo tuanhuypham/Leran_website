@@ -1,0 +1,137 @@
+body {
+    background: url("https://www.w3docs.com/uploads/media/default/0001/01/b5edc1bad4dc8c20291c8394527cb2c5b43ee13c.jpeg") no-repeat center;
+    height: 100vh;
+    margin: 0;
+    background-size: cover;
+}
+.main{
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+}
+.main-body{
+    display: flex;
+    align-items: center;
+    padding-top: 150px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-evenly;
+}
+.left{
+    text-align: center;
+    margin-top: 100px;
+}
+.title h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.content{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button button{
+    padding: 10px 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    background: #26a9e0;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 15px;
+    color: #fff;
+    transition: all 0.5s;
+}
+.button button:hover{
+    background-color:#6cbbdd;
+}
+.fa-graduation-cap:before {
+    content: "\f19d";
+    font-size: 65px;
+    color: white;
+}
+.fa-pencil-alt:before {
+    content: "\f303";
+    padding-right: 15px;
+}
+.title h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: white;
+}
+.fill-in{  
+    display: flex;
+    flex-direction: column;
+}
+.title-2{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.right {
+    padding: 28px;
+    width: 865px;
+    background: rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 70px;
+}
+
+::placeholder{
+    color: white;
+}
+.fill-in input, select{
+    outline: none;
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    border-bottom: 1px solid;
+    margin-bottom: 30px;
+}
+.rules label{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.rules a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.select-right{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.select-right option{
+    background: black;
+}
+.rules{
+    padding-bottom: 25px;
+}
+.rules input{
+    margin: 0 10px 0 0;
+    vertical-align: middle;
+}
+.rules a{
+    margin-left: 5px;
+    font-size: 16px;
+    color: #26a9e0;
+}
+.rules a:hover{
+    color: #85d6de;
+}
+.submit input{
+    height: 40px;
+    width: 100%;
+    border-radius: 6px;
+    background: #26a9e0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    transition: all 0.75s;
+}
+.submit input:hover{
+    background-color: #83c4df;
+}
