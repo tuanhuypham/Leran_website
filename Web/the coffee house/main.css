@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+}
+.container-fluid-header{
+    background-color: black;
+    margin: 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+/* .container-header{
+    padding-top: 25px;
+    padding-bottom: 25px;
+} */
+.logo-img{
+    width: 250px;
+}
+.logo-img img{
+    width: 100%;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: arial;
+    font-weight: 700;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.nav-item{
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+.nav{
+    list-style: none;
+}
+.navbar{
+    display: flex;
+}
+.container-fluid.banner-layer{
+    background-image: url(https://thecoffeehouse.com.vn/wp-content/uploads/2019/08/arabica-aromatic-beans-1695052-1.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 90vh;
+}
+.content{
+    width: 500px;
+}
+.content p{
+    color: white;
+}
+.title h2{
+    color: white;
+    margin: 0;
+}
+.title{
+    width: 500px;   
+}
+
+.container.inform{
+    display: flex;
+    flex-direction: column;
+}
+.inform-product{
+    position: absolute;
+    top: 60%;
+}
+.bg-light{
+    display: flex;
+    justify-content: space-between;
+}
+.container-fluid-project{
+    padding-top: 30px;
+    background-color: white;
+}
+.col{
+    max-width: 300px;
+    margin-bottom: 35px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
