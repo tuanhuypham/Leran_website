@@ -55,7 +55,6 @@ table,th ,td{
     align-items: center;
     border: 1px solid #c6c6c6;
     padding-left: 10px;
-    padding-right: 10px;
     border-radius: 4px;
 }
 .pagination a {
@@ -69,6 +68,6 @@ table,th ,td{
     color: white;
     background-color: #007bff;
 }
-.pagination span:last-child{
-    color: #007bff;
+.pagination li:last-child a{
+    border: none;
 }
