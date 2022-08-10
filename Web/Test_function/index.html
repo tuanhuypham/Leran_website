@@ -1,18 +1,67 @@
-<nav aria-label="...">
-  <ul class="pagination">
-    <li class="page-item disabled">
-      <span class="page-link">Previous</span>
-    </li>
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item active">
-      <span class="page-link">
-        2
-        <span class="sr-only">(current)</span>
-      </span>
-    </li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item">
-      <a class="page-link" href="#">Next</a>
-    </li>
-  </ul>
-</nav>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="main.css">
+<style>
+
+</style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container container-slide-show">                        
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="https://phuclong.com.vn/uploads/banner/1f42d2606624d2-1920_576.png" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                        <img src="https://phuclong.com.vn/uploads/banner/4c5cb845ad632c-digital1920x576.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="https://phuclong.com.vn/uploads/banner/693431e1a25871-banner_1920576.png" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="https://phuclong.com.vn/uploads/banner/4b9491980fcdae-traolong1.jpg" style="width:100%">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+                <span class="dot" onclick="currentSlide(4)"></span> 
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+    showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+    showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    }
+</script>
+</html> 
