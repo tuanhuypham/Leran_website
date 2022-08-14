@@ -1,0 +1,53 @@
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+}
+.col{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.col-2{
+    flex: 2;
+}
+.option-item{
+    width: 25px;
+    padding: 5px;
+    fill: currentColor;
+    color: gray;
+    display: inline-block;
+}
+.col-2-item-serch{
+    width: 15px;
+    padding: 0px 5px 0px 15px;
+}
+.col-2-item-input{
+    width: 75%;
+    outline: none;
+    background: #eef3fc;
+    border: none;
+}
+::placeholder{
+    font-size: 16px;
+}
+.col-2-serch{
+    background: #eef3fc;
+    padding: 15px;
+    border-radius: 8px;
+}
+.col-2-item-utilities a>svg{
+    fill: currentColor;
+    width: 25px;
+    color: grey;
+}
+.col-2-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.col-2-item-profile a>img{
+    width: 25px;
+}
+.col-2-item{   
+    margin: 0px 10px 0px 5px;
+}
