@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <title>Document</title>
+    <title>Gmail</title>
 </head>
 <body>
     <div class="main">
-        <div class="container-fluid">
+        <div class="container-fluid container-fluid-top">
             <div class="col">
                 <div class="option">
                     <svg class="option-item" focusable="false" viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg>
@@ -18,9 +18,12 @@
                     <img  src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_1x_r4.png" alt="">
                 </div>
             </div>
-            <div class="col col-2 col-2-serch">
+            <div class="col col-2 col-2-serch col-2-center">
                 <img class="col-2-item-serch" src="https://cdn.onlinewebfonts.com/svg/img_197388.png" alt="">
                 <input class="col-2-item-input" type="text" placeholder="Tìm trong thư">
+                <button class="col-2-item-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M3 17v2h6v-2H3zM3 5v2h10V5H3zm10 16v-2h8v-2h-8v-2h-2v6h2zM7 9v2H3v2h4v2h2V9H7zm14 4v-2H11v2h10zm-6-4h2V7h4V5h-4V3h-2v6z"></path></svg>
+                </button>
             </div>
             <div class="col col-2 col-2-right">
                 <div class="col-2-item col-2-item-help">
@@ -45,6 +48,108 @@
                 </div>
             </div>
         </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4 col-4-left">
+                    <div class="control-">
+                        <div class="top-">
+                            <div class="function-compose-button">
+                                <button class="function-button" type="button">
+                                    <span>Soạn thư</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="end">
+                            <div class="function-compose">
+                                <ul class="control-function-compose">
+                                    <li class="item-function-compose">
+                                        <div class="br">
+                                            <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/inbox_black_20dp.png" alt="">
+                                        </div>
+                                        <div class="title-compose">
+                                            <span>Hộp thư đến </span>
+                                        </div>
+                                    </li>
+                                    <li class="item-function-compose">
+                                        <div class="br">
+                                            <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/star_border_black_20dp.png" alt="">
+                                        </div>
+                                        <div class="title-compose">
+                                            <span>Có gắn sao</span>
+                                        </div>
+                                    </li>
+                                    <li class="item-function-compose">
+                                        <div class="br">
+                                            <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/schedule_black_20dp.png" alt="">
+                                        </div>
+                                        <div class="title-compose">
+                                            <span>Đã tạm ẩn</span>
+                                        </div>
+                                    </li>
+                                    <li class="item-function-compose">
+                                        <div class="br">
+                                            <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/send_black_20dp.png" alt="">
+                                        </div>
+                                        <div class="title-compose">
+                                            <span>Đã gởi</span>
+                                        </div>
+                                    </li>
+                                    <li class="item-function-compose">
+                                        <div class="br">
+                                            <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/insert_drive_file_black_20dp.png" alt="">
+                                        </div>
+                                        <div class="title-compose">
+                                            <span>Thư nháp</span>
+                                        </div>
+                                    </li>
+                                    <li class="item-function-compose">
+                                        <div class="br">
+                                            <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/expand_more_black_20dp.png" alt="">
+                                        </div>
+                                        <div onclick="showList()" class="title-compose-test">
+                                            <span>Danh dách mở rộng</span>
+                                            <ul class="list">
+                                                <li>1</li>
+                                                <li>2</li>
+                                                <li>3</li>
+                                            </ul>
+                                        </div> 
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tag-note">
+                                <div class="control-tag">
+                                    <div class="title-tag">
+                                        <span>Nhãn</span>
+                                    </div>
+                                    <div class="button-tag">
+                                        <button type="button">
+                                            <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/add_black_20dp.png" alt="">
+                                        </button>
+                                    </div>  
+                                </div>
+                                <div class="control-note">
+                                    <div class="button-note">
+                                        <button>
+                                            <img src="https://www.gstatic.com/images/icons/material/system_gm_filled/1x/label_gm_grey_24dp.png" alt="">
+                                        </button>
+                                    </div>
+                                    <div class="title-note">
+                                        <span>
+                                            Notes
+                                        </span>                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="col-8">col-8</div>
+              </div>
+        </div>
     </div>
 </body>
+<script src="main.js">
+
+</script>
 </html>

@@ -1,25 +1,39 @@
-.container-fluid{
+body{
+    margin: 0;
+    background: #f6f8fc;
+}
+.container-fluid-top{
+    border-bottom: 1px solid #f1f1f1;
+    padding: 15px 0px 15px 0px;
     display: flex;
     justify-content: space-between;
 }
 .col{
-    flex: 1;
     display: flex;
     align-items: center;
+    margin-left: 10px;
+    width: 238px;
+    margin-right: 10px;
 }
 .col-2{
     flex: 2;
 }
+.option{
+    margin: 0 4px;
+    padding: 12px;
+}
 .option-item{
     width: 25px;
-    padding: 5px;
+    padding: 0px;
     fill: currentColor;
     color: gray;
     display: inline-block;
+    margin-right: 10px;
+    margin-left: 0px;
 }
 .col-2-item-serch{
-    width: 15px;
-    padding: 0px 5px 0px 15px;
+    width: 17px;
+    padding: 0px 10px 0px 10px;
 }
 .col-2-item-input{
     width: 75%;
@@ -46,8 +60,83 @@
     align-items: center;
 }
 .col-2-item-profile a>img{
-    width: 25px;
+    width: 40px;
 }
 .col-2-item{   
     margin: 0px 10px 0px 5px;
+}
+.col-2-item-button{
+    background: transparent;
+    border: none;
+    position: relative;
+    left: 110px;
+}
+.col-4{
+    width: 238px;
+}
+.row{
+    display: flex;
+}
+.function-button{
+    padding: 20px 40px 20px 50px;
+    border: none;
+    outline: none;
+    background-image: url(https://www.gstatic.com/images/icons/material/system_gm/1x/create_black_24dp.png);
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    font-size: 15px;
+    background-position: center left 12px;
+    background-color: #c2e7ff;
+    font-family: helvetica;
+    color: #6a6a6a;
+}
+.function-compose-button{
+    padding-left: 15px;
+}
+.control-function-compose{
+    list-style: none;
+    padding-left: 0;
+}
+.item-function-compose{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 15px;
+    margin-bottom: 5px;
+    padding-top: 4px;
+    padding-bottom: 2px;
+}
+.br{
+    margin: 0px 20px;
+}
+.title-compose{
+    font-family:Helvetica;
+    font-size: 14px;
+}
+.item-function-compose:first-child{
+    background: #d3e3fd;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-weight: 600;
+}
+.control-tag{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.button-tag button{
+    background: transparent;
+    outline: none;
+    border: none;
+}
+.title-tag span{
+    font-family: helvetica;
+    font-size: 15px;
+    font-weight: 600;
+}
+.list{
+    display: none;
+}
+.list_on{
+    display: block;
 }
