@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <title>Gmail</title>
+    <title>
+        Gmail
+    </title>
 </head>
 <body>
     <div class="main">
@@ -48,108 +50,355 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-4 col-4-left">
-                    <div class="control-">
-                        <div class="top-">
-                            <div class="function-compose-button">
-                                <button class="function-button" type="button">
-                                    <span>Soạn thư</span>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="end">
-                            <div class="function-compose">
-                                <ul class="control-function-compose">
-                                    <li class="item-function-compose">
-                                        <div class="br">
-                                            <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/inbox_black_20dp.png" alt="">
-                                        </div>
-                                        <div class="title-compose">
-                                            <span>Hộp thư đến </span>
-                                        </div>
-                                    </li>
-                                    <li class="item-function-compose">
-                                        <div class="br">
-                                            <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/star_border_black_20dp.png" alt="">
-                                        </div>
-                                        <div class="title-compose">
-                                            <span>Có gắn sao</span>
-                                        </div>
-                                    </li>
-                                    <li class="item-function-compose">
-                                        <div class="br">
-                                            <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/schedule_black_20dp.png" alt="">
-                                        </div>
-                                        <div class="title-compose">
-                                            <span>Đã tạm ẩn</span>
-                                        </div>
-                                    </li>
-                                    <li class="item-function-compose">
-                                        <div class="br">
-                                            <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/send_black_20dp.png" alt="">
-                                        </div>
-                                        <div class="title-compose">
-                                            <span>Đã gởi</span>
-                                        </div>
-                                    </li>
-                                    <li class="item-function-compose">
-                                        <div class="br">
-                                            <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/insert_drive_file_black_20dp.png" alt="">
-                                        </div>
-                                        <div class="title-compose">
-                                            <span>Thư nháp</span>
-                                        </div>
-                                    </li>
-                                    <li class="item-function-compose">
-                                        <div class="br">
-                                            <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/expand_more_black_20dp.png" alt="">
-                                        </div>
-                                        <div onclick="showList()" class="title-compose-test">
-                                            <span>Danh dách mở rộng</span>
-                                            <ul class="list">
-                                                <li>1</li>
-                                                <li>2</li>
-                                                <li>3</li>
-                                            </ul>
-                                        </div> 
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="tag-note">
-                                <div class="control-tag">
-                                    <div class="title-tag">
-                                        <span>Nhãn</span>
-                                    </div>
-                                    <div class="button-tag">
-                                        <button type="button">
-                                            <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/add_black_20dp.png" alt="">
-                                        </button>
-                                    </div>  
-                                </div>
-                                <div class="control-note">
-                                    <div class="button-note">
-                                        <button>
-                                            <img src="https://www.gstatic.com/images/icons/material/system_gm_filled/1x/label_gm_grey_24dp.png" alt="">
-                                        </button>
-                                    </div>
-                                    <div class="title-note">
-                                        <span>
-                                            Notes
-                                        </span>                                        
-                                    </div>
+        <div class="container-fluid-mid">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4 col-4-left">
+                        <div class="control-">
+                            <div class="top-">
+                                <div class="function-compose-button">
+                                    <button class="function-button" type="button">
+                                        <span>Soạn thư</span>
+                                    </button>
                                 </div>
                             </div>
-                        </div>
-                    </div>                    
+                            <div class="end">
+                                <div class="function-compose">
+                                    <ul class="control-function-compose">
+                                        <li class="item-function-compose">
+                                            <div class="br">
+                                                <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/inbox_black_20dp.png" alt="">
+                                            </div>
+                                            <div class="title-compose">
+                                                <span>Hộp thư đến </span>
+                                            </div>
+                                        </li>
+                                        <li class="item-function-compose">
+                                            <div class="br">
+                                                <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/star_border_black_20dp.png" alt="">
+                                            </div>
+                                            <div class="title-compose">
+                                                <span>Có gắn sao</span>
+                                            </div>
+                                        </li>
+                                        <li class="item-function-compose">
+                                            <div class="br">
+                                                <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/schedule_black_20dp.png" alt="">
+                                            </div>
+                                            <div class="title-compose">
+                                                <span>Đã tạm ẩn</span>
+                                            </div>
+                                        </li>
+                                        <li class="item-function-compose">
+                                            <div class="br">
+                                                <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/send_black_20dp.png" alt="">
+                                            </div>
+                                            <div class="title-compose">
+                                                <span>Đã gởi</span>
+                                            </div>
+                                        </li>
+                                        <li class="item-function-compose">
+                                            <div class="br">
+                                                <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/insert_drive_file_black_20dp.png" alt="">
+                                            </div>
+                                            <div class="title-compose">
+                                                <span>Thư nháp</span>
+                                            </div>
+                                        </li>
+                                        <li onclick="onList()" class="item-function-compose item-function-compose-end">
+                                            <div onclick="Show()" class="parent">
+                                                <div class="br">
+                                                    <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/expand_more_black_20dp.png" alt="">
+                                                </div>
+                                                <div class="title-compose">
+                                                    <span>Danh dách mở rộng</span>
+                                                </div>
+                                            </div>
+                                            <div class="control-extended">
+                                                <ul class="extended">
+                                                    <li>
+                                                        <div class="br-extended">
+                                                            <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/label_important_outline_black_20dp.png" alt="">
+                                                        </div>
+                                                        <div class="content-extended">
+                                                            <span>Quan trọng</span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="br-extended">
+                                                            <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/chat_black_20dp.png" alt="">
+                                                        </div>
+                                                        <div class="content-extended">
+                                                            <span>Trò chuyện</span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="br-extended">
+                                                            <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/schedule_send_black_20dp.png" alt="">
+                                                        </div>
+                                                        <div class="content-extended">
+                                                            <span>Đã lên lịch</span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="br-extended">
+                                                            <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/mail_outline_black_20dp.png" alt="">
+                                                        </div>
+                                                        <div class="content-extended">
+                                                            <span>Tất cả thư</span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="br-extended">
+                                                            <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/report_black_20dp.png" alt="">
+                                                        </div>
+                                                        <div class="content-extended">
+                                                            <span>Thư rác</span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="br-extended">
+                                                            <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/delete_black_20dp.png" alt="">
+                                                        </div>
+                                                        <div class="content-extended">
+                                                            <span>Thùng rác</span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="br-extended">
+                                                            <img src="https://www.gstatic.com/images/icons/material/system_gm_filled/1x/label_gm_grey_24dp.png" alt="">
+                                                        </div>
+                                                        <div class="content-extended">
+                                                            <span>Doanh mục</span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="br-extended">
+                                                            <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/settings_black_20dp.png" alt="">
+                                                        </div>
+                                                        <div class="content-extended">
+                                                            <span>Quản lí nhãn</span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="br-extended">
+                                                            <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/add_black_20dp.png" alt="">
+                                                        </div>
+                                                        <div class="content-extended">
+                                                            <span>Tạo nhãn mới</span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tag-note">
+                                    <div class="control-tag">
+                                        <div class="title-tag">
+                                            <span>Nhãn</span>
+                                        </div>
+                                        <div class="button-tag">
+                                            <button type="button">
+                                                <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/add_black_20dp.png" alt="">
+                                            </button>
+                                        </div>  
+                                    </div>
+                                    <div class="control-note">
+                                        <div class="button-note">
+                                            <button>
+                                                <img src="https://www.gstatic.com/images/icons/material/system_gm_filled/1x/label_gm_grey_24dp.png" alt="">
+                                            </button>
+                                        </div>
+                                        <div class="title-note">
+                                            <span>
+                                                Notes
+                                            </span>                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                    
+                    </div>
                 </div>
-                <div class="col-8">col-8</div>
-              </div>
+            </div>
+            <div class=" container-fluid">
+                <div class="row">
+                    <div class="col-8">
+                        <div class="control-navigation">
+                            <div class="top-navigation">
+                                <div class="content-top-navigation">
+                                    <div class="left-navigation">
+                                        <div class="option left-option">
+                                           <div onclick="disPlayonSubmenu()" class="item-option item-option-mail">
+                                                <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/check_box_outline_blank_black_20dp.png" alt="">
+                                               <ul class="sub-item-option">
+                                                   <li class="item-sub">
+                                                       <span>Tất cả</span class="item-sub">
+                                                   </li>
+                                                   <li class="item-sub">
+                                                       <span>Bỏ chọn tất cả</span class="item-sub">
+                                                   </li>
+                                                   <li class="item-sub">
+                                                       <span>Thư đã đọc</span class="item-sub">
+                                                   </li>
+                                                   <li class="item-sub">
+                                                       <span>Thư chưa đọc</span class="item-sub">
+                                                   </li>
+                                                   <li class="item-sub">
+                                                       <span>Có gắn dấu sao</span class="item-sub">
+                                                   </li>
+                                                   <li class="item-sub">
+                                                       <span>Thư không gắn dấu sao</span class="item-sub">
+                                                   </li>
+                                               </ul>
+                                           </div>
+                                           <div class="item-option">
+                                                <img src="https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/refresh/default/20px.svg" alt="">
+                                           </div>
+                                           <div onclick="threeDotsOn()" class="item-option">
+                                                <img src="https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/more_vert/default/20px.svg" alt="">
+                                                <div class="three-dots">
+                                                    <div class="item-three-dot">
+                                                        <p>Đánh đấu tất cả đã đọc</pcls>
+                                                    </div>
+                                                    <div  class="item-three-dot">
+                                                        <p>chọn thư để xem thêm thao tác</pcls>
+                                                    </div>
+                                                </div>
+                                           </div>
+                                        </div>
+                                    </div>
+                                    <div class="right-navigation">
+                                        <div class="control-option">
+                                            <div class="option right-option">
+                                                <div class="item-option">
+                                                    <span>1-50 trong số 601</span>
+                                                </div>
+                                                <div class="item-option">
+                                                    <span>˂</span>
+                                                </div>
+                                                <div class="item-option">
+                                                    <span>˃</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mid-navigation">
+                                <div class="container">
+                                    <div class="content-mail">
+                                        <table class="main-table">
+                                            <thead class="thead-content">
+                                                <tr>
+                                                    <td>
+                                                        <div class="control-table control-table-th1">
+                                                            <div class="table-img table-img-th1">
+                                                            </div>
+                                                            <div class="table-content">
+                                                                <span>Chính</span>
+                                                            </div>
+                                                        </div> 
+                                                    </td>
+                                                    <td>
+                                                        <div class="control-table">
+                                                            <div class="table-img">
+                                                                <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/local_offer_black_20dp.png" alt="">
+                                                            </div>
+                                                            <div class="table-content">
+                                                                <span>Quảng cáo</span>
+                                                            </div>
+                                                        </div>                                                                                                                                          
+                                                    </td>
+                                                    <td>
+                                                        <div class="control-table">
+                                                            <div class="table-img">
+                                                                <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/people_black_20dp.png" alt="">
+                                                            </div>
+                                                            <div class="table-content">
+                                                                <span>Mạng xã hội</span>
+                                                            </div>
+                                                        </div> 
+                                                    </td>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="tbody-content">
+                                                <tr>
+                                                    <td>
+                                                        <div class="control-td">
+                                                            <div class="item-tbody tbody-img">
+                                                                <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/check_box_outline_blank_black_20dp.png" alt="">
+                                                            </div>
+                                                            <div class="item-tbody tbody-img">
+                                                                <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/star_border_black_20dp.png" alt="">
+                                                            </div>
+                                                           <div class="item-tbody tbody-title">
+                                                                <span>title</span>
+                                                           </div> 
+                                                        </div> 
+                                                    </td>
+                                                    <td>
+                                                        <div class="conten-bodycontent">
+                                                            <span>Tựa game nên chơi ngay trong tuần này</span>
+                                                            <span>Tải một game mới để chơi trong tuần này. Chúng tôi đã biên soạn một danh sách dành riêng cho bạn. Thỏa sức chơi ngay hôm nay và đến tận cuối tuần nhé. Có trên Hãy Chọn Game Mới Chúng tôi đã chọn những</span>
+                                                        </div>                                                    
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="control-td">
+                                                            <div class="item-tbody tbody-img">
+                                                                <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/check_box_outline_blank_black_20dp.png" alt="">
+                                                            </div>
+                                                            <div class="item-tbody tbody-img">
+                                                                <img src="https://www.gstatic.com/images/icons/material/system_gm/1x/star_border_black_20dp.png" alt="">
+                                                            </div>
+                                                           <div class="item-tbody tbody-title">
+                                                                <span>title</span>
+                                                           </div> 
+                                                        </div> 
+                                                    </td>
+                                                    <td>
+                                                        <div class="conten-bodycontent">
+                                                            <span>Tựa game nên chơi ngay trong tuần này</span>
+                                                            <span>Tải một game mới để chơi trong tuần này. Chúng tôi đã biên soạn một danh sách dành riêng cho bạn. Thỏa sức chơi ngay hôm nay và đến tận cuối tuần nhé. Có trên Hãy Chọn Game Mới Chúng tôi đã chọn những</span>
+                                                        </div>                                                    
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>                             
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="foot">
+                            <div class="control-foot">
+                                <div class="col">
+                                    
+                                </div>
+                                <div class="col col-foot">
+                                    <div class="item-col">
+                                        <a href="">Điều khoản</a>
+                                    </div>
+                                    <div class="item-col">
+                                        <a href="">Bảo mật</a>
+                                    </div>
+                                    <div class="item-col">
+                                        <a href="">Chính sách chương trình</a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    1
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
 <script src="main.js">
-
 </script>
 </html>

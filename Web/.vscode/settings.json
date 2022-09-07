@@ -2,5 +2,20 @@
     "files.associations": {
         "ostream": "cpp",
         "iostream": "cpp"
-    }
+    },
+    "liveServer.settings.CustomBrowser": "microsoft-edge",
+    "liveServer.settings.host": "127.0.0.1",
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": null,
+    "liveServer.settings.port": 5500,
+    "liveServer.settings.fullReload": false,
+    "liveServer.settings.NoBrowser": false,
+    "liveServer.settings.ChromeDebuggingAttachment": false,
+    "liveServer.settings.donotVerifyTags": false,
+    "liveServer.settings.ignoreFiles": [
+
+        ".vscode/**",
+        "**/*.scss",
+        "**/*.sass",
+        "**/*.ts"
+    ]
 }

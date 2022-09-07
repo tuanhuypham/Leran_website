@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    font-family: Raleway, sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.container-fluid-head{
+    background-color: grey;
+}
+.item-head{
+    font-size: 13px;
+    color: #bbbfc9;
+    font-family: Raleway, sans-serif;
+}
+.item-head>span{
+    color: white;
+}
+/* .container-head{
+    padding: ;  
+} */
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+.menu-parent{
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+.menu-parent>.item-menu>a{
+    color: #60646d;
+    font-size: 16px;
+}
+.menu-parent>.item-menu:first-child a{
+    background-color: #67c9e0;
+    color: #fff;
+}
+.item-menu:hover{
+    background-color:#67c9e0;
+}
+.item-menu:hover>a{
+    color: white;
+}
+.item-menu>a{
+    text-decoration: none;
+    padding: 8px 15px;
+    display: block;
+}
+
+.right{
+    width: 750px;
+}
+
+/*  */
+
+* {box-sizing: border-box}
+    body {font-family: Verdana, sans-serif; margin:0}
+    .mySlides {display: none}
+    img {vertical-align: middle;}
+
+.slideshow-container {
+    position: relative;
+    margin: auto;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-size: 30px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+    
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.col-4{
+    width: 480px;
+}
+.col-8{
+    width: 720px;
+}
+
