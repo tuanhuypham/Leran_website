@@ -121,10 +121,97 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.row-4{
+    display: flex;
+    width: 720px;
+    flex-wrap: wrap;
+    flex-direction: row;  
+}
+
+/* .fa,.fas{
+    font-weight: 900;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1; */
+/* } */
+.fa{
+    font-family: 'Font Awesome 5 Free' ;
+}
+.fa-plus-square::before{
+    content: "\f0fe";
+    position: absolute;
+    left: -80px;
+    top: 24px;
+    font-size: 60px;
+    color: #67c9e0;
+}
+.fa-medkit::before{
+    content: "\f0fa";
+    position: absolute;
+    left: -80px;
+    top: 24px;
+    font-size: 60px;
+    color: #67c9e0;
+}
+.fa-user-md::before{
+    content: "\f0f0";
+    position: absolute;
+    left: -80px;
+    top: 24px;
+    font-size: 60px;
+    color: #67c9e0;
+}
+.fa-ambulance::before{
+    content: "\f0f9";
+    position: absolute;
+    left: -85px;
+    top: 24px;
+    font-size: 60px;
+    color: #67c9e0;
+}
 .col-4{
-    width: 480px;
+    width: 300px;
+    position: relative;
 }
 .col-8{
     width: 720px;
 }
-
+.text-title{
+    text-align: center;
+}
+.Medical-Specialists{
+    background-color: #f0f5f7;
+}
+.col-info-doctor{
+    width: 285px;
+}
+.card-header>img{
+    width: 100%;
+}
+.card-footer,.card-body{
+    text-align: center;
+}
+.button{
+    text-align: center;
+}
+.fa-plus::before{
+    content: "\f067";
+}
+.fa-plus{
+    position: relative;
+    left: 132px;
+    font-size: 10px;
+}
+.grow{
+    display: flex;
+    justify-content: space-between;
+}
+.col-Health-and-Medical{
+    width: 380px;
+}
+.card-body>i{
+    position: relative;
+    left: 150px;
+}
