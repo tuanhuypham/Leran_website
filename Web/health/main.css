@@ -6,9 +6,18 @@ body{
     width: 1200px;
     margin: 0 auto;
 }
+.container-fluid-nav{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: white;
+}
 .head{
     display: flex;
     justify-content: space-between;
+}
+.container-head{
+    position: sticky;
 }
 .container-fluid-head{
     background-color: grey;
@@ -190,7 +199,7 @@ body{
 .card-header>img{
     width: 100%;
 }
-.card-footer,.card-body{
+.card-footer,.card-body,.paraghrap{
     text-align: center;
 }
 .button{
@@ -214,4 +223,22 @@ body{
 .card-body>i{
     position: relative;
     left: 150px;
+}
+.paraghrap>p{
+    font-family: 'Droid Serif', serif;
+    font-style: italic;
+}
+.col-foot{
+    width: 285px;
+}
+.container-fluid-foot{
+    background-color: #3a3c41;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+.grow-foot{
+    display: flex;
+    flex-direction:column;
 }

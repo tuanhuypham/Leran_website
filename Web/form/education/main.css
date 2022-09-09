@@ -135,3 +135,37 @@ body {
 .submit input:hover{
     background-color: #83c4df;
 }
+ 
+ @media screen and (max-width : 1024px){
+    body{
+        width: auto;
+        height: 145vh
+    }
+    .main-body{
+        display: flex;
+        flex-direction:column;
+    }
+    .right{
+        width: auto;
+    }
+    .button>button{
+        width: auto;
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+    }
+ }
+ @media screen and (max-width : 390px) {
+    body{
+        width: auto;
+        height: 145vh;
+    }
+   
+ }
+ @media screen and (max-width : 736px) {
+    body{
+        width: auto;
+        height: 166vh;
+    }
+ }
