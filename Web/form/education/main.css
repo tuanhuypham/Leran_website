@@ -137,29 +137,44 @@ body {
 }
  
  @media screen and (max-width : 1024px){
+    .button>.button{
+        width: 100%;
+        padding-left:0 ;
+        padding-right: 0;
+    }
     body{
         width: auto;
         height: 145vh
     }
+    
     .main-body{
+        padding-top: 0;
         display: flex;
         flex-direction:column;
     }
     .right{
-        width: auto;
+        width: 100%;
+        box-sizing: border-box;
     }
     .button>button{
-        width: auto;
+        width: 100%;
+        margin-left: 0;
     }
     .button{
         display: flex;
         flex-direction: column;
+    }
+    .left{
+        width: 100%;
     }
  }
  @media screen and (max-width : 390px) {
     body{
         width: auto;
         height: 145vh;
+    }
+    .left{
+        width: 100%;
     }
    
  }

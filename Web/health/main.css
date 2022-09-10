@@ -30,14 +30,66 @@ body{
 .item-head>span{
     color: white;
 }
-/* .container-head{
-    padding: ;  
-} */
+.left img{
+    width: 250px;
+}
 .container-nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 25px;
+}
+.col-4-left{
+    width: 350px;
+}
+.col-4 h2{
+    font-size: 21px;
+    font-family: Century Gothic;
+    font-weight: 600;
+    color: #3a3c41;
+}
+.col-4 p{
+    font-size:13px;
+    color: #7b7d85;
+    width: 200px;
+}
+.title-col{
+    line-height: 28px;
+}
+.text-content p{
+    font-size: 13px;
+    color: #7b7d85;
+}
+.text-content{
+    margin: 27px 0px 27px 0px;
+}
+.title-col>span{
+    font-size: 25px;
+    font-family: Century Gothic;
+    font-weight: 100;
+    color: #3a3c41;
+    margin: 0
+}
+.button-col>button{
+    width: 200px;
+    padding: 15px 0px 15px 0px;
+    outline: none;
+    border: none;
+    background-color: #f15b5a;
+    color: white;
+    font-weight: 600;
+    font-family: Bahnschrift;
+    font-size: 16px;
+}
+.button-col>button:hover{
+    background-color: black;
+}
+.title-col>h2{
+    font-family: Century Gothic;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom:0;
+    color: #3a3c41;
 }
 .menu-parent{
     list-style: none;
@@ -46,24 +98,43 @@ body{
 }
 .menu-parent>.item-menu>a{
     color: #60646d;
-    font-size: 16px;
+    font-size: 15px;
+    font-weight: 100;
 }
 .menu-parent>.item-menu:first-child a{
     background-color: #67c9e0;
     color: #fff;
 }
-.item-menu:hover{
-    background-color:#67c9e0;
+.item-menu{
+    position: relative;
 }
-.item-menu:hover>a{
+.item-menu:hover a{
+    background-color:#67c9e0;
     color: white;
+}
+.item-menu:hover .sub-menu{
+    display: block;
 }
 .item-menu>a{
     text-decoration: none;
     padding: 8px 15px;
     display: block;
 }
-
+.sub-menu{
+    position: absolute;
+    padding-left: 15px;
+    top: 34px;
+    width: 240px;
+    line-height: 40px;
+    background-color: #67c9e0;
+    display: none;
+}
+.sub-menu>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+}
 .right{
     width: 750px;
 }
@@ -152,7 +223,7 @@ body{
     content: "\f0fe";
     position: absolute;
     left: -80px;
-    top: 24px;
+    top: 43px;
     font-size: 60px;
     color: #67c9e0;
 }
@@ -160,7 +231,7 @@ body{
     content: "\f0fa";
     position: absolute;
     left: -80px;
-    top: 24px;
+    top: 43px;
     font-size: 60px;
     color: #67c9e0;
 }
@@ -168,7 +239,7 @@ body{
     content: "\f0f0";
     position: absolute;
     left: -80px;
-    top: 24px;
+    top: 43px;
     font-size: 60px;
     color: #67c9e0;
 }
@@ -176,7 +247,7 @@ body{
     content: "\f0f9";
     position: absolute;
     left: -85px;
-    top: 24px;
+    top: 43px;
     font-size: 60px;
     color: #67c9e0;
 }
@@ -216,6 +287,7 @@ body{
 .grow{
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
 .col-Health-and-Medical{
     width: 380px;
