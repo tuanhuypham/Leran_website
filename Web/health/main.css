@@ -24,6 +24,11 @@ body{
     padding-top: 50px;
     padding-bottom: 50px;
 }
+.col-Health-and-Medical>.card>.card-footer p{
+    padding: 15px 40px 15px 40px;
+    margin: 0;
+
+}
 .head{
     display: flex;
     justify-content: space-between;
@@ -83,7 +88,7 @@ body{
     margin: 0
 }
 .button-col>button{
-    width: 200px;
+    width: 235px;
     padding: 15px 0px 15px 0px;
     outline: none;
     border: none;
@@ -125,6 +130,8 @@ body{
     color: white;
 }
 .item-menu:hover .sub-menu{
+    /* z-index: 1;
+    top: 34px; */
     display: block;
 }
 .item-menu>a{
@@ -135,10 +142,13 @@ body{
 .sub-menu{
     position: absolute;
     padding-left: 15px;
-    top: 34px;
+    top: 1;
     width: 240px;
     line-height: 40px;
     background-color: #67c9e0;
+    /* z-index: -1;
+    overflow: hidden; */
+    transition: all 1s;
     display: none;
 }
 .sub-menu>li>a{
@@ -378,10 +388,9 @@ body{
 .card-footer p{
     font-family:Century Gothic;
     font-size: 14px;
-    padding: 0px 20px 0px 20px;
     color: #7d8b85;
     line-height: 22px;
-    padding: 5px 0px 5px 0px;
+    padding: 5px 15px 5px 15px;
 }
 .button-infor-doctor{
     text-align: center;
@@ -414,6 +423,15 @@ body{
 .paraghrap>p{
     font-family: 'Droid Serif', serif;
     font-style: italic;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #6a7177;
+    text-align: center;
+}
+.paraghrap{
+    width: 820px;
+    margin: auto;
 }
 .col-foot{
     width: 285px;
@@ -476,8 +494,10 @@ ul{
 .col-foot input{
     outline: none;
     border: none;
-    background: gray;
+    background-color:#515359 ;
     width: 100%;
+    color: #FFFF;
+    font-size: 14px;
     padding: 15px 10px ;
 }
 .col-foot button{
@@ -490,4 +510,197 @@ ul{
     padding: 10px 25px 10px 25px;
     font-weight: 600;
     margin: 10px 0px;
+}
+.input_on{
+    background-color: #7e8088;
+}
+.container-networking{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    border-top: 1px solid #53565c;
+}
+.container-networking>.col span{
+    color:#53565c;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.75;
+    font-family: Century Gothic;
+}
+.social-netwroking{
+    display: flex;
+    justify-content: space-between;
+}
+.social-netwroking>li{
+    margin: 0px 5px 0px 5px;
+}
+.fab{
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    color: #53565c;
+}
+.fab:hover{
+    font-size: 20px;
+    color: #fff;
+    transition: all 0.2s ease;
+    margin-top: -2px;   
+}
+@media screen and (max-width : 320px){
+    body{
+        width: fit-content;
+    }
+    .main{
+        width: fit-content;
+    }
+    .container-head{
+        text-align: center;
+        width: 100%;
+    }
+    .container,.paraghrap,.right{
+        width: 100%;
+    }
+    .container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .head{
+        flex-direction: column;
+    }
+    .container-nav{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+    .left{
+        margin: 35px 0px;
+    }
+    .left img{
+        width: 500px;
+    }
+    .grow{
+        display: block;
+    }
+    .row{
+        display: block;
+    }
+    .col-8{
+        width: 100%;
+        text-align: center;
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+    .col-4{
+        width: 100%;
+        text-align: center;
+        padding-left :41px;
+        padding-right: 41px;
+
+    }
+    .menu-parent{
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .item-head{
+        font-size:20px;
+    }
+    .col-4-left{
+        width: 100%;
+        text-align: center;
+        
+    }
+    .fa-plus-square::before {
+        content: "\f0fe";
+        position: static;
+        font-size: 125px;
+        color: #67c9e0;
+    }
+    .fa-medkit::before{
+        content: "\f0fa";
+        position: static;       
+        font-size: 125px;
+        color: #67c9e0;
+    }
+    .fa-ambulance::before{
+        content: "\f0f9";
+        position: static;
+        font-size: 125px;
+        color: #67c9e0;
+    }
+    .fa-user-md::before{
+        content: "\f0f0";
+        position: static;
+        font-size: 125px;
+        color: #67c9e0;
+    }
+    .col-4 h2{
+        font-size: 65px;
+    }
+    .title-col>h2{
+        font-size: 65px;
+    }
+    .title-col{
+        line-height: 65px;
+    }
+    .title-col>span{
+        font-size: 65px;
+    }
+    .col-4 p{
+        width: 100%;
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .text-content>p{
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .text-title>h2{
+        font-size: 70px;
+        font-family: Century Gothic;
+    }
+    .text-title>p{
+        font-size: 34px;
+        padding-left: 20px;
+        padding-right: 20px;
+        line-height: 60px;
+    }
+    .button-col>button{
+        width: auto;
+        padding: 30px 100px 30px 100px;
+        font-size: 38px;
+        font-family: Century Gothic;
+        font-weight: 600;
+    }
+    .col-info-doctor{
+        width: 100%;
+    }
+    .card-body{
+        position: relative;
+        border-bottom: 2px solid #dfe1e6;
+        margin: 0px 60px 0px 60px;
+    }
+    .card-body h4{
+        font-size: 50px;
+    }
+    .card-footer{
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .card-footer p{
+        font-size: 36px;
+        line-height: 63px;
+        padding: 0;
+    }
+    .col-Health-and-Medical{
+        width: 100%;
+    }
+    .fa-plus{
+        font-size: 35px;
+        top: 17px;
+    }
 }
