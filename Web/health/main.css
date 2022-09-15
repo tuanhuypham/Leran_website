@@ -559,6 +559,9 @@ ul{
         text-align: center;
         width: 100%;
     }
+    .container-fluid-foot{
+        padding-top: 10px;
+    }
     .container,.paraghrap,.right{
         width: 100%;
     }
@@ -612,7 +615,6 @@ ul{
     .col-4-left{
         width: 100%;
         text-align: center;
-        
     }
     .fa-plus-square::before {
         content: "\f0fe";
@@ -679,6 +681,10 @@ ul{
     .col-info-doctor{
         width: 100%;
     }
+    .card-header-Health-and-Medical iframe{
+        width: 100%;
+        height: 50vh;
+    }
     .card-body{
         position: relative;
         border-bottom: 2px solid #dfe1e6;
@@ -703,4 +709,61 @@ ul{
         font-size: 35px;
         top: 17px;
     }
-}
+    .col-foot{
+        width: 100%;
+    }
+    .col-title>h5{
+        font-size: 50px;
+    }
+    .col-title p{
+        font-size: 35px;
+    }
+    .control-list{
+        width: 100%;
+    }
+    .control-list>li>a {
+        font-size: 35px;
+    }
+    .control-list>li {
+        padding: 30px 0px 30px 0px;
+    }
+    .col-foot input{
+        padding: 35px 15px;
+        font-size: 40px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .col-foot>form>label{
+        font-size: 45px;
+    }
+    .col-foot>.col-title p{
+        padding: 15px 0px;
+    }
+    .col-foot button{
+        font-size: 35px;
+        padding: 35px 65px 35px 65px;
+    }
+    .container-networking{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container-networking>.col{
+        text-align: center;
+    }
+    .container-networking>.col span{
+        font-size: 33px;
+    }
+    .social-netwroking{
+        display: flex;
+        margin-top: 20px;
+    }
+    .fab{
+        font-size: 35px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .fab:hover{
+        font-size: 40px;
+    }
+}   
