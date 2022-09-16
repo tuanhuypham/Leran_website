@@ -38,3 +38,9 @@ function showSlides(n) {
 document.addEventListener('DOMContentLoaded', function() {
     showSlides(slideIndex);
 });
+
+const disPlayon = document.querySelector('.menu-parent');
+
+function onMenuParent(){
+    disPlayon.classList.toggle('menu-parent-on');
+}

@@ -27,7 +27,6 @@ body{
 .col-Health-and-Medical>.card>.card-footer p{
     padding: 15px 40px 15px 40px;
     margin: 0;
-
 }
 .head{
     display: flex;
@@ -584,6 +583,27 @@ ul{
     .left img{
         width: 500px;
     }
+    .right{
+        width: 90%;
+        margin-bottom: 50px;
+    }
+    .reponsive-three-line{
+        background-color: #53c3dd;
+        text-align: end;
+    }
+    .fa-bars{
+        font-size: 55px;
+        color: aliceblue;
+        background-color: #67c9e0;
+        padding: 30px;
+    }
+    .three-line{
+        border-top: 3px solid white;
+        width: 30px;
+    }
+    .three-line{
+        margin: 10px 0px;
+    }
     .grow{
         display: block;
     }
@@ -593,7 +613,8 @@ ul{
     .col-8{
         width: 100%;
         text-align: center;
-        padding-left: 50px;
+        padding-left: 25px;
+        padding-right: 25px;
         padding-top: 50px;
     }
     .col-4{
@@ -680,6 +701,7 @@ ul{
     }
     .col-info-doctor{
         width: 100%;
+        padding-top: 50px;
     }
     .card-header-Health-and-Medical iframe{
         width: 100%;
@@ -704,6 +726,14 @@ ul{
     }
     .col-Health-and-Medical{
         width: 100%;
+        padding-bottom: 150px;
+    }
+    .button-Health-and-Medical{
+        top: 110px;
+    }
+    .button-Health-and-Medical button{
+        font-size: 35px;
+        padding: 35px 70px;
     }
     .fa-plus{
         font-size: 35px;
@@ -743,6 +773,16 @@ ul{
         font-size: 35px;
         padding: 35px 65px 35px 65px;
     }
+    .col-info-doctor{
+        padding-bottom: 150px;
+    }
+    .button-infor-doctor{
+        top: 100px;
+    }
+    .button-infor-doctor button{
+        font-size: 35px;
+        padding: 30px 70px;
+    }
     .container-networking{
         display: flex;
         flex-direction: column;
@@ -750,7 +790,9 @@ ul{
     }
     .container-networking>.col{
         text-align: center;
+        padding: 25px 0px;
     }
+    
     .container-networking>.col span{
         font-size: 33px;
     }
@@ -765,5 +807,24 @@ ul{
     }
     .fab:hover{
         font-size: 40px;
+    }
+    .menu-parent{
+        display: none;
+    }
+    .menu-parent-on{
+        display: block;
+        background-color: #53c3dd;
+    }
+    .menu-parent-on>.item-menu a{
+        border-top: 0.5px solid white;
+    }
+    .menu-parent>.item-menu>a:first-child{
+        background-color: #53c3dd;
+    }
+    .menu-parent>.item-menu a{
+        font-size:35px;
+        background-color: #53c3dd;
+        color: white;
+        padding: 35px 30px;
     }
 }   
