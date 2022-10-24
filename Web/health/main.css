@@ -6,6 +6,9 @@ body{
     width: 1200px;
     margin: 0 auto;
 }
+.reponsive-three-line{
+    display: none;
+}
 .container-fluid-nav{
     position: sticky;
     top: -1px;
@@ -547,7 +550,52 @@ ul{
     transition: all 0.2s ease;
     margin-top: -2px;   
 }
-@media screen and (max-width : 320px){
+@media screen and (max-width : 1200px){
+    .main{
+        width: fit-content;     
+    }
+    
+    .head{
+        padding: 5px 50px;
+    }
+    .container-nav{
+        width: 100%;
+        padding: 25px 50px;
+    }.container-clearfix{
+        padding: 0px 50px;
+    }
+    .container-info-doctor{
+        width: 100%;
+        padding: 0px 50px;
+    }
+    .col-info-doctor{
+        width: 100%;
+        padding: 0px 17px;
+    }
+    .col-info-doctor:first-child,.col-Health-and-Medical:first-child{
+        padding-left: 0px;
+    }
+    .col-info-doctor:last-child,.col-Health-and-Medical:last-child{
+        padding-right: 0px;
+    }
+    .container-Health-and-Medical{
+        width: 100%;
+        padding: 0px 50px;
+    }
+    .col-Health-and-Medical{
+        width: 100%;
+        padding: 0px 17px;
+    }
+    .container-foot{
+        width: 100%;
+        padding:0px 50px;
+    }
+    .container-networking{
+        padding: 30px 50px;
+        margin: 0px 50px;
+    }
+}
+@media screen and (max-width : 767px){
     body{
         width: fit-content;
     }
@@ -561,9 +609,9 @@ ul{
     .container-fluid-foot{
         padding-top: 10px;
     }
-    .container,.paraghrap,.right{
+    /* .container,.paraghrap,.right{
         width: 100%;
-    }
+    } */
     .container{
         padding-left: 30px;
         padding-right: 30px;
@@ -574,8 +622,8 @@ ul{
     .container-nav{
         display: flex;
         flex-direction: column;
+        padding: 0px 30px;
         width: 100%;
-        padding: 0;
     }
     .left{
         margin: 35px 0px;
@@ -584,12 +632,13 @@ ul{
         width: 500px;
     }
     .right{
-        width: 90%;
         margin-bottom: 50px;
+        width: 100%;
     }
     .reponsive-three-line{
         background-color: #53c3dd;
         text-align: end;
+        display: block;
     }
     .fa-bars{
         font-size: 55px;
@@ -609,6 +658,7 @@ ul{
     }
     .row{
         display: block;
+        width: 100%;
     }
     .col-8{
         width: 100%;
@@ -827,4 +877,4 @@ ul{
         color: white;
         padding: 35px 30px;
     }
-}   
+}  

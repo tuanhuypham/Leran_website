@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="D:\OneDrive - University of Economics and Finance - UEF\Hoc tap\Leran_website\Web\font\fontawesome\css\all.min.css"
+        rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+    <title>Dashboard v3</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="container-fluid">
+            <div class="left">
+                <div class="logo-and-title">
+                    <div class="logo">
+                        <img src="https://adminlte.io/themes/v3/dist/img/AdminLTELogo.png" alt="">
+                    </div>
+                    <div class="title title-logo">
+                        <span>AdminLTE3</span>
+                    </div>
+                </div>
+                <div class="admin">
+                    <div class="logo">
+                        <img src="https://adminlte.io/themes/v3/dist/img/user2-160x160.jpg" alt="">
+                    </div>
+                    <div class="title title-admin">
+                        <span>
+                            Alexander Pierce
+                        </span>
+                    </div>
+                </div>
+                <div class="input-group" data-widget="sidebar-search">
+                    <input class="form-control form-control-sidebar" type="search" placeholder="Search"
+                        aria-label="Search">
+                    <div class="input-group-append">
+                        <button class="btn btn-sidebar">
+                            <i class="fas fa-search fa-fw"></i>
+                        </button>
+                    </div>
+                </div>
+                <aside class="aside">
+                    <ul class="control-nav control-nav-menu">
+                        <li class="Nav-item">
+                            <div class="active" onclick="turnon_Dashboard()">
+                                <p>
+                                    <i class="nav-icon fas fa-tachometer-alt"></i>
+                                    Dashboard
+                                </p>
+                            </div>
+                            <ul class="sub-nav padding-0 sub-nav-Dashboard">
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Dashboard v1</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Dashboard v2</p>
+                                </li>
+                                <li class="sub-nav-item-last">
+                                    <p>
+                                        <i class="far fa-circle nav-icon"></i>
+                                        Dashboard v3
+                                    </p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="Nav-item">
+                            <p>
+                                <i class="nav-icon fas fa-th"></i>
+                                Widgets
+                            </p>
+                        </li>
+                        <li class="Nav-item" onclick="turnon_playout()">
+                            <p>
+                                <i class="nav-icon fas fa-copy"></i>
+                                Layout Option
+                            </p>
+                            <ul class="sub-nav padding-0 Layout-Option-of">
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Top navigation</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Top navigation+Slidebar</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Boxed</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Fixed Slidebar</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Fixed Slidebar+<small>Custom</small></p>
+                                    <small>Area</small>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="Nav-item" onclick="Turn_on()">
+                            <p>
+                                <i class="nav-icon fas fa-chart-pie"></i>
+                                Chart
+                            </p>
+                            <ul class="sub-nav padding-0 sub-nav-onclick">
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>ChartJs</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Flot</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Inline</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>uPlot</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="Nav-item" onclick="turn_on_ui_element()">
+                            <p>
+                                <i class="nav-icon fas fa-tree"></i>
+                                UI Elements
+                            </p>
+                            <ul class="sub-nav padding padding-0 UI-Elements-of">
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>General</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Icon</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Buttons
+                                    <p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Sliders</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Model & Alert</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Navbar & Tabs</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Timeline</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Ribbons</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="Nav-item" onclick="turn_on_Form()">
+                            <p>
+                                <i class="nav-icon fas fa-edit"></i>
+                                Form
+                            </p>
+                            <ul class="sub-nav padding-0 Form-of">
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>General Elements</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Advanced Elements</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Editor</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Validation</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="Nav-item" onclick=" turn_on_Table()">
+                            <p>
+                                <i class="nav-icon fas fa-table"></i>
+                                Table
+                            </p>
+                            <ul class="sub-nav padding-0 Table-of">
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Simple Tables</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Data Tables</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>JsGrid</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="Nav-item color-white">
+                            Example
+                        </li>
+                        <li class="Nav-item">
+                            <p>
+                                <i class="nav-icon fas fa-calendar-alt"></i>
+                                Calendar
+                            </p>
+                        </li>
+                        <li class="Nav-item">
+                            <p>
+                                <i class="nav-icon far fa-image"></i>
+                                Galley
+                            </p>
+                        </li>
+                        <li class="Nav-item">
+                            <p>
+                                <i class="nav-icon fas fa-columns"></i>
+                                Kanban
+                            </p>
+                        </li>
+                        <li class="Nav-item" onclick="turn_on_mail()">
+                            <p>
+                                <i class="nav-icon far fa-envelope"></i>
+                                Mailbox
+                            </p>
+                            <ul class="sub-nav padding-0 mail-of">
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Inbox</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Compose</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Read</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="Nav-item" onclick="turn_on_page()">
+                            <p>
+                                <i class="nav-icon fas fa-book"></i>
+                                Page
+                            </p>
+                            <ul class="sub-nav padding-0 page-of">
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Invoice</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Profile</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>E-commece<p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Project</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Project Add</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Project Edit</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Contacts</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>FAQ</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Conta us</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="Nav-item "onclick="turn_on_Extra()">                           
+                            <p>
+                                <i class="nav-icon far fa-plus-square"></i>
+                                Extra
+                            </p>
+                            <ul class="sub-nav padding-0 Extra-of">
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Login & Register V1</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Login & Register V2s</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Lookscreeen<p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Legacy User Menu</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Language Menu</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Erro 040</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Erro 500</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Pace</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Bank page</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Starter page</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="Nav-item" onclick="turn_on_Search()">
+                            <p>
+                                <i class="nav-icon fas fa-search"></i>
+                                Search
+                            </p>
+                            <ul class="sub-nav padding-0 Search-of">
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Simple Search</p>
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Enhanced</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="Nav-item color-white">
+                            MISCELLANEOUS
+                        </li>
+                        <li class="Nav-item">
+                            <p>
+                                <i class="nav-icon fas fa-ellipsis-h"></i>
+                                Tabbble IFrame Plugin
+                            </p>
+                        </li>
+                        <li class="Nav-item">
+                            <p>
+                                <i class="nav-icon fas fa-file"></i>
+                                Documenttation
+                            </p>
+                        </li>
+                        <li class="Nav-item color-white">
+                            MULTI LEVEL EXAMPLE
+                        </li>
+                        <li class="Nav-item">                          
+                            <p>
+                                <i class="fas fa-circle nav-icon"></i>
+                                Level 1
+                            </p>
+                        </li>
+                        <li class="Nav-item" ondblclick="turn_on_level_1_of()" onclick="turn_on_level_1()">
+                            <p>
+                                <i class="fas fa-circle nav-icon"></i>
+                                Level 1
+                            </p>
+                            <ul class="sub-nav padding-0 sub-nav-lv2">
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Level 2</p>
+                                </li>
+                                <li class="sub-nav-item sub-nav-item-lv2"  onclick="turn_on_level_2()">
+                                    <div class="sub-top">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Level 2</p>
+                                    </div>
+                                    <div class="sub-next sub-next-of">
+                                        <ul class="sub-nav padding-0">
+                                            <li class="sub-nav-item sub-nav-item-vl2">
+                                                <i class="far fa-dot-circle nav-icon"></i>
+                                                <p>Level 3</p>
+                                            </li>
+                                            <li class="sub-nav-item sub-nav-item-vl2">
+                                                <i class="far fa-dot-circle nav-icon"></i>
+                                                <p>Level 3</p>
+                                            </li>
+                                            <li class="sub-nav-item sub-nav-item-vl2">
+                                                <i class="far fa-dot-circle nav-icon"></i>
+                                                <p>Level 3</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    
+                                </li>
+                                <li class="sub-nav-item">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Level 2</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="Nav-item">
+                            <p>
+                                <i class="fas fa-circle nav-icon"></i>
+                                Level 1
+                            </p>
+                        </li>
+                        <li class="Nav-item color-white">
+                            LABELS
+                        </li>
+                        <li class="Nav-item">
+                            <p>
+                                <i class="nav-icon far fa-circle text-danger"></i>
+                                Important
+                            </p>
+                        </li>
+                        <li class="Nav-item">
+                            <p>
+                                <i class="nav-icon far fa-circle text-warning"></i>
+                                Warning
+                            </p>
+                        </li>
+                        <li class="Nav-item">                           
+                            <p>
+                                <i class="nav-icon far fa-circle text-info"></i>
+                                infomational
+                            </p>
+                        </li>
+                    </ul>
+                </aside>
+            </div>
+            <div class="right">
+                <div class="container-fluid container-fluid-nav background-color-white">
+                    <div class="navigation display-flex justify-content-space-between">
+                        <div class="nav-left">
+                            <ul class="control-nav display-flex">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-solid fa-bars"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nav-right">
+                            <ul class="control-nav display-flex">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-regular fa-comments"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-regular fa-bell"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-sharp fa-solid fa-maximize"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-sharp fa-solid fa-table-cells-large"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid container-fluid-nav">
+                    <div class="navigation-title width-100 display-flex justify-content-space-between">
+                        <div class="nav-left">
+                            <div class="nav-left-tile">
+                                <h1>
+                                    Dashboard v3
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="nav-right display-flex align-items-center">
+                            <a href="#">
+                                <span>Home</span>
+                            </a>
+                            <span>/</span>
+                            <span>Dashboard v3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid chart">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card">
+                                <div
+                                    class="title title-card display-flex align-items-center justify-content-space-between">
+                                    <h3>
+                                        Online Store Visitors
+                                    </h3>
+                                    <a href="#">
+                                        View Report
+                                    </a>
+                                </div>
+                                <div class="sub-title display-flex justify-content-space-between">
+                                    <div class="display-flex flex-direction-column">
+                                        <span>
+                                            <strong>820</strong>
+                                        </span>
+                                        <span>Visitors Over Time</span>
+                                    </div>
+                                    <div class="display-flex flex-direction-column">
+                                        <span>
+                                            12.5%
+                                        </span>
+                                        <span>
+                                            Since last week
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="body-card">
+                                    <div class="chart">
+                                        <canvas id="myChart"></canvas>
+                                    </div>
+                                </div>
+                                <div class="display-flex justify-content-flex-end">
+                                    <span>This Week</span>
+                                    <span>Last Week</span>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="title display-flex align-items-center justify-content-space-between">
+                                    <div class="card-title">
+                                        <h3>Products</h3>
+                                    </div>
+                                    <div class="tool">
+                                        <i class="fa fa-download"></i>
+                                        <i class="fa fa-bars"></i>
+                                    </div>
+                                </div>
+                                <div class="body-card">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Product</th>
+                                                <th>Price</th>
+                                                <th>Sales</th>
+                                                <th>More</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tbody>
+                                            <tr>
+                                                <td class="display-flex align-items-center">
+                                                    <img src="https://adminlte.io/themes/v3/dist/img/default-150x150.png"
+                                                        alt="Product 1" class="img-circle img-size-32 mr-2">
+                                                    Some Product
+                                                </td>
+                                                <td>$13 USD</td>
+                                                <td>
+                                                    <small class="text-success mr-1">
+                                                        <i class="fas fa-arrow-up"></i>
+                                                        12%
+                                                    </small>
+                                                    12,000 Sold
+                                                </td>
+                                                <td>
+                                                    <a href="#" class="text-muted">
+                                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="display-flex align-items-center">
+                                                    <img src="https://adminlte.io/themes/v3/dist/img/default-150x150.png"
+                                                        alt="Product 1" class="img-circle img-size-32 mr-2">
+                                                    Another Product
+                                                </td>
+                                                <td>$29 USD</td>
+                                                <td>
+                                                    <small class="text-warning mr-1">
+                                                        <i class="fas fa-arrow-down"></i>
+                                                        0.5%
+                                                    </small>
+                                                    123,234 Sold
+                                                </td>
+                                                <td>
+                                                    <a href="#" class="text-muted">
+                                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="display-flex align-items-center">
+                                                    <img src="https://adminlte.io/themes/v3/dist/img/default-150x150.png"
+                                                        alt="Product 1" class="img-circle img-size-32 mr-2">
+                                                    Amazing Product
+                                                </td>
+                                                <td>$1,230 USD</td>
+                                                <td>
+                                                    <small class="text-danger mr-1">
+                                                        <i class="fas fa-arrow-down"></i>
+                                                        3%
+                                                    </small>
+                                                    198 Sold
+                                                </td>
+                                                <td>
+                                                    <a href="#" class="text-muted">
+                                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="display-flex align-items-center">
+                                                    <img src="https://adminlte.io/themes/v3/dist/img/default-150x150.png"
+                                                        alt="Product 1" class="img-circle img-size-32 mr-2">
+                                                    Perfect Item
+                                                    <span class="badge bg-danger">NEW</span>
+                                                </td>
+                                                <td>$199 USD</td>
+                                                <td>
+                                                    <small class="text-success mr-1">
+                                                        <i class="fas fa-arrow-up"></i>
+                                                        63%
+                                                    </small>
+                                                    87 Sold
+                                                </td>
+                                                <td>
+                                                    <a href="#" class="text-muted">
+                                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div
+                                    class="title title-card display-flex align-items-center justify-content-space-between">
+                                    <h3>
+                                        Sales
+                                    </h3>
+                                    <a href="#">
+                                        View Report
+                                    </a>
+                                </div>
+                                <div class="sub-title display-flex justify-content-space-between">
+                                    <div class="display-flex flex-direction-column">
+                                        <span><strong>$18,230.00</strong></span>
+                                        <span>Sales Over Time</span>
+                                    </div>
+                                    <div class="display-flex flex-direction-column">
+                                        <span>
+                                            <i></i>
+                                            33.1%
+                                        </span>
+                                        <span>
+                                            Since last month
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="body-card">
+                                    <div class="bar">
+                                        <canvas id="bar-chart" width="auto"></canvas>
+                                    </div>
+                                </div>
+                                <div class="display-flex justify-content-flex-end">
+                                    <span>This Week</span>
+                                    <span>Last Week</span>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="title display-flex align-items-center justify-content-space-between">
+                                    <div class="title">
+                                        <h3>Online Store Overview </h3>
+                                    </div>
+                                    <div class="tool">
+                                        <i class="fa fa-download"></i>
+                                        <i class="fa fa-bars"></i>
+                                    </div>
+                                </div>
+                                <div class="body-card">
+                                    <div class="display-flex justify-content-space-between align-items-center ">
+                                        <p class="text-success text-xl">
+                                            <i class="fas fa-arrow-rotate-right"></i>
+                                        </p>
+                                        <p class="display-flex flex-column text-right">
+                                            <span class="font-weight-bold">
+                                                <i class="ion ion-android-arrow-up text-success"></i> 12%
+                                            </span>
+                                            <span class="text-muted">CONVERSION RATE</span>
+                                        </p>
+                                    </div>
+
+                                    <div class="display-flex justify-content-space-between align-items-center">
+                                        <p class="text-warning text-xl">
+                                            <i class="fas fa-cart-shopping"></i>
+                                        </p>
+                                        <p class="display-flex flex-column text-right">
+                                            <span class="font-weight-bold">
+                                                <i class="ion ion-android-arrow-up text-warning"></i> 0.8%
+                                            </span>
+                                            <span class="text-muted">SALES RATE</span>
+                                        </p>
+                                    </div>
+
+                                    <div class="display-flex justify-content-space-between align-items-center">
+                                        <p class="text-danger text-xl">
+                                            <i class="fas fa-users-line"></i>
+                                        </p>
+                                        <p class="d-flex flex-column text-right">
+                                            <span class="font-weight-bold">
+                                                <i class="ion ion-android-arrow-down text-danger"></i> 1%
+                                            </span>
+                                            <span class="text-muted">REGISTRATION RATE</span>
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <footer class="main-footer display-flex justify-content-space-between">
+                <div class="float-left">
+                    <strong>Copyright © 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong>All rights
+                    reserved.
+                </div>
+                <div class="float-right d-none d-sm-inline-block">
+                    <b>Version</b> 3.2.0
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="main.js">
+
+</script>
+
+</html>
