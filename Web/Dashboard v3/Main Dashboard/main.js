@@ -34,8 +34,8 @@
     type: 'line',
     data,
     options: {
-      maintainAspectRatio: false,
-     
+      
+      maintainAspectRatio: false, 
       scales: {
         y: {
           min: 0,
@@ -50,7 +50,9 @@
             display: false
           }
         },
+       
       }
+
     }
   };
   const myChart = new Chart(
@@ -162,7 +164,6 @@ const bar_chart = new Chart(ctx, {
   }
 })();
 
-
 //no dem duoc hay ko dem duoc
 (function () { //IIFE
   //-----------------------------------------------------
@@ -177,3 +178,4 @@ const bar_chart = new Chart(ctx, {
     });
   });
 })();
+

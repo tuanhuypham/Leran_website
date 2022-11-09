@@ -28,7 +28,7 @@ body{
     background-color: #f4f6f9;
 }
 .fa-angle-left-rotate>.fa-angle-left{
-    rotate: -90deg;
+    transform: rotate(-90deg);
 }
 .logo{
     width: 30px;
@@ -264,6 +264,9 @@ body{
 .fa-download,.fa-bars{
   color: #c2c7d0;  
 }
+.fa-bars:hover{
+    color: black;
+}
 .fa-bars::before{
     content: 'f0c9';
 }
@@ -407,7 +410,6 @@ body{
 }
 .active>a{
     margin: 0;
-    padding:1rem 0.7rem;
     border-radius: 5px;
     color:white;
     display: flex;
@@ -415,10 +417,14 @@ body{
     align-items: center;
     text-decoration: none;
 }
+.active-main>a{
+    padding: 0.7rem 0.7rem;
+}
 .active>a>p{
     margin: 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
 }
 .sub-nav-item>small{
@@ -457,6 +463,23 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+.Nav-item-active-clcik{
+    color: #c2c7d0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.7rem 0;
+}
+
+.Nav-item-active-clcik>p{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin: 0;
+}
 .Nav-item>a>p{
     color: #c2c7d0;
     margin: 0;
@@ -473,7 +496,7 @@ body{
     padding: 0.7rem 0;
     color: #c2c7d0;;
 }
-.Nav-item>p:hover{
+.Nav-item>.Nav-item-active-clcik:hover{
     border-radius: 5px;
     background-color: #494e53;
 }
@@ -664,16 +687,36 @@ td img{
 .margin-right-10{
     margin-right: 10px;
 }
-
-
 .Nav-item.active > .nav-item-lv1 .fa.fa-angle-left,
 .sub-nav-item.active .fa.fa-angle-left
 {
-    rotate: -90deg;
+    transform: rotate(-90deg);
 }
-
+.Nav-item.active>div>p>i{
+    transform: rotate(-90deg);
+}
+.Nav-item.active > .active-main>a>p>i{
+    transform: rotate(90deg);
+}
 .Nav-item.active > .sub-nav,
 .sub-nav-item.active > .sub-next-of
 {
     display: block;
+}
+.Nav-item.active>.sub-nav-Dashboard{
+    display: none;
+}
+.control-nav-left>li>a:hover{
+    color: black;
+}
+.main-page{
+    background: #007bff;
+    border-radius: 5px;
+    pointer-events: none;
+}
+.bg-white-customs{
+    background-color: #ebecec;
+}
+.color-black{
+    color: black !important;
 }
