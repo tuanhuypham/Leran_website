@@ -1,62 +1,24 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>love</title>
-</head>
-<style>
-    body{
-        background-color: rgb(77, 0, 153);
-    }
-    .love{
-        position: relative;
-        top: 100px;
-        height: 300px;
-        width: 300px;
-        background: red;
-        margin: 0 auto;
-        transform: rotate(45deg);
-        box-shadow: 0 0 50px red;
-    }
-
-    .love:before{
-        content: ' ';
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        background: red;
-        margin: 0 auto;
-        border-radius: 50%;
-        left: -50%;
-        transform: rotate(45deg);
-        box-shadow: 0 0 50px red;
-    }
-    .love:after{
-        content: ' ';
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        background: red;
-        margin: 0 auto;
-        border-radius: 50%;
-        top: -50%;
-        transform: rotate(45deg);
-        box-shadow: 0 0 50px red;
-    }
-    .box{
-        margin-top: 100px;
-
-    }
-    .box>.love:hover{
-        rotate: -90deg;
-    }
-</style>
-<body>
-    <div class="box">
-        <div class="love"></div>
-    </div>
-</body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title of the document</title>
+    <style>
+        body{
+            background-color: white;
+            padding: 0;
+            margin: 0;
+            height: 100vh;
+            background-image: repeating-linear-gradient(
+                180deg,
+                #91A756 0,
+                #91A756 5px,
+                transparent 5px,
+                transparent 10px
+            );
+        }
+    </style>
+  </head>
+  <body>
+    
+  </body>
 </html>

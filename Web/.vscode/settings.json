@@ -3,7 +3,7 @@
         "ostream": "cpp",
         "iostream": "cpp"
     },
-    "liveServer.settings.CustomBrowser": "microsoft-edge",
+    "liveServer.settings.CustomBrowser": "chrome",
     "liveServer.settings.host": "127.0.0.1",
     "liveServer.settings.AdvanceCustomBrowserCmdLine": null,
     "liveServer.settings.port": 5500,
@@ -17,5 +17,6 @@
         "**/*.scss",
         "**/*.sass",
         "**/*.ts"
-    ]
+    ],
+    "editor.fontFamily": "MeslolGL Nerd Font"
 }

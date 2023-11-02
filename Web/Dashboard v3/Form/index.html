@@ -48,7 +48,7 @@
                     <ul class="control-nav control-nav-menu">
                         <li class="Nav-item">
                             <div  class="active active-main">
-                                <a class="bg-blue-custom" href="#">
+                                <a class="" href="#">
                                     <i class="nav-icon fas fa-tachometer-alt"></i>
                                     <p>
                                         Dashboard
@@ -223,7 +223,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="Nav-item" >
+                        <li class="Nav-item Nav-item-Main">
                             <div class="Nav-item-active-clcik main-page">
                                 <i class="nav-icon fas fa-edit"></i>
                                 <p>
@@ -684,13 +684,235 @@
                     </div>
                 </div>
 
-                <div class="container-fluid chart">
+                <div class="container-fluid">
                     <div class="row">
                         <div class="col">
-                            1
+                            <div class="form-stt background-color-white">
+                               <div class="card-header">
+                                   <h3>Quick example</h3>
+                               </div>
+                                <div class="content">
+                                    <form>
+                                        <div class="body-form Quick-example">
+                                            <div class="form-group display-flex flex-direction-column">
+                                                <label>Email address</label>
+                                                <input type="text" placeholder="Enter Email">
+                                            </div>
+                                            <div class="form-group display-flex flex-direction-column">
+                                                <label>Password</label>
+                                                <input type="text" placeholder="Password">
+                                            </div>
+                                            <div class="form-group label-sub">
+                                                <label>File input</label>
+                                                <div class="input-gruop display-flex justify-content-space-between">
+                                                    <div class="input-file">
+                                                        <input type="file" class="upload-file">
+                                                    </div>
+                                                    <div class="input-append">
+                                                        <span>
+                                                            Upload
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-check">
+                                            <input type="checkbox">
+                                            <lable>Check me out</lable>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="submit">
+                                    <input type="submit" value="Submit">
+                                </div>
+                            </div>
+
+                            <div class="form-stt background-color-white">
+                                <div class="card-header bg-blue-custom">
+                                    <h3>Different Style</h3>
+                                </div>
+                                <div class="content ">
+                                    <div class="title-form">
+                                        <h3>Input</h3>
+                                    </div>
+                                    <form>
+                                        <div class="body-form body-card-input-n-3 display-flex flex-direction-column">
+                                            <div class="form-group form-group-none-border display-flex flex-direction-column">
+                                                <label>Bottom Border only <code>.form-control-border</code></label>
+                                                <input type="text" placeholder=".form-control-borther">
+                                            </div>
+                                            <div class="form-group form-group-none-border display-flex flex-direction-column">
+                                                <label>Bottom Border only 2px Border <code>.form-control-border.border-width-2</code></label>
+                                                <input type="text" placeholder=".form-control-border.border-width-2">
+                                            </div>
+                                            <div class="form-group display-flex flex-direction-column">
+                                                <label>Flat<code>.rounded-0</code></label>
+                                                <input type="text" placeholder=".rounded-0">
+                                            </div>
+                                        </div>
+                                        <div class="title-select">
+                                            <h3>Custom Select</h3>
+                                        </div>
+                                        <div class="body-form body-card-input-n-3 display-flex flex-direction-column">                                    
+                                            <div class="form-group form-group-none-border display-flex flex-direction-column">
+                                                <label>Bottom Border only <code>.form-control-border</code></label>
+                                                <select name="" id="">
+                                                    <option value="1">value 1</option>
+                                                    <option value="2">value 2</option>
+                                                    <option value="3">value 3</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group form-group-none-border display-flex flex-direction-column">
+                                                <label>Bottom Border only<code>.form-control-border.border-width-2</code></label>
+                                                <select name="" id="">
+                                                    <option value="1">value 1</option>
+                                                    <option value="2">value 2</option>
+                                                    <option value="3">value 3</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group display-flex flex-direction-column">
+                                                <label>Flat<code>.rounded-0</code></label>
+                                                <select class="Flat">
+                                                    <option value="1">value 1</option>
+                                                    <option value="2">value 2</option>
+                                                    <option value="3">value 3</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                
+                            </div>
+                            <div class="form-stt background-color-white">
+                                <div class="card-header bg-blue-custom">
+                                    <h3>Input addon</h3>
+                                </div>
+                                <div class="content">                                 
+                                    <form class="input-addon">
+                                        <div class="body-form body-card-input-n-3 display-flex flex-direction-column">
+                                            <div class="form-group display-flex align-items-center">
+                                                <span>@</span>
+                                                <input class="input-User" type="text" placeholder="Username">
+                                            </div>
+                                            <div class="form-group form-group-append-border-left form-group-append-border-left-input form-group-append-border-span display-flex align-items-center">
+                                                <input class="input-group-append" type="text">
+                                                <span>.00</span>
+                                            </div>
+                                            <div class="form-group form-group-append-double-span form-group-append-border-left-and-right display-flex align-items-center">
+                                                <span>$</span>
+                                                <input class="input-group-append" type="text">
+                                                <span>.00</span>
+                                            </div>
+                                                <h3>With icons</h3>
+                                            <div class="form-group form-group-append-mail display-flex align-items-center">
+                                                <i class="fa fa-envelope"></i>
+                                                <input class="input-User"type="text" placeholder="Mail">
+                                            </div>
+                                            <h3>With checkbox and radio inputs</h3>
+                                            <div class="form-group form-group-append-border-left form-group-append-border-left-input form-group-append-border-span display-flex align-items-center">
+                                                <input class="input-group-append" type="text">
+                                                <span><i class="fa-solid fa-check"></i></span>
+                                            </div>
+                                            <div class="form-group form-group-append-double-span form-group-append-border-left-and-right display-flex align-items-center">
+                                                <span><i class="fa-solid fa-dollar-sign"></i></span>
+                                                <input class="input-group-append" type="text">
+                                                <span><i class="fa-solid fa-truck-medical"></i></span>
+                                            </div>
+                                            <h3>With checkbox and radio inputs</h3>
+                                            <div class="form display-flex justify-content-space-between form-group-parallel">
+                                                <div class="input-left display-flex align-items-center">
+                                                    <span><input type="checkbox"></span>
+                                                    <input class="input-User input-append" type="text">
+                                                </div>
+                                                <div class="input-right display-flex align-items-center">
+                                                    <span><input type="radio"></span>
+                                                    <input class="input-User input-append" type="text">
+                                                </div>
+                                            </div>
+                                            <div class="form-goup With-buttons">
+                                                <h5>With buttons</h5>
+                                                <label for="">Large : <code>.input-group.input-group-lg</code></label>
+                                                none display
+                                            </div>
+                                            <div class="form-group" >
+                                                <label for="">Normal</label>
+                                                <div class="control-form display-flex align-items-center">
+                                                    <button type="button">Action</button>
+                                                    <input type="text" >
+                                                </div>
+                                            </div>
+                                        </div>                                        
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="form-stt background-color-white">
+                                <div class="card-header background-color-green-17a2b8">
+                                    <h3>Horizontal Form</h3>
+                                </div>
+                                <div class="content">
+                                    <form class="Horizontal">
+                                        <div class="body-form body-card-input-n-3 display-flex flex-direction-column">
+                                            <div class="form-group form-group-Horizontal-Form">
+                                                <label >Enail</label>
+                                                <input type="text" placeholder="Enail">
+                                            </div>
+                                            <div class="form-group form-group-Horizontal-Form">
+                                                <label>Password</label>
+                                                <input type="text" placeholder="Password">
+                                            </div>
+                                            <div class="form-check form-check-Horizontal-Form display-flex justify-content-space-between">
+                                                <div class="col-virtual">
+                                                </div>
+                                                <div class="col-check">
+                                                    <input type="checkbox">
+                                                    <span>
+                                                        Remember me
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="card-footer display-flex justify-content-space-between">
+                                    <button type="submit" class="button-card-footer-right background-color-green-17a2b8">
+                                        Sign in
+                                    </button>
+                                    <button type="submit" class="button-card-footer-left background-color-transparent">
+                                        Cancel
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="form-stt">
+                                2
+                            </div>
                         </div>
+
                         <div class="col">
-                          2
+                            <div class="form-stt background-color-white">
+                                <div class="card-header bg-green-customs">
+                                    <h3>Different Height</h3>
+                                </div>
+                                <div class="content">
+                                    <form>
+                                        <div class="body-form body-card-input-n-3 display-flex flex-direction-column">
+                                            <input class="form-control-lg" type="text"  placeholder=".form-control-lg">
+                                            <input class="Default-input" type="text"  placeholder="Default input">
+                                            <input class="form-control-sm" type="text" placeholder=".form-control-sm">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="form-stt background-color-white">
+                                <div class="card-header bg-red-customs">
+                                    <h3>Different Width</h3>
+                                </div>
+                            </div>
+                            <div class="form-stt">
+                                1
+                            </div>
+                            <div class="form-stt">
+                                1
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -710,7 +932,5 @@
     </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
 <script src="main.js"></script>
-
 </html>

@@ -1,0 +1,26 @@
+.br-green-034B48 {
+    background-color: #034B48 !important;
+    height: 100vh;
+}
+.br-orange-EB922C{
+    background-color: #EB922C !important;
+}
+.nav-link{
+    color: #ffff !important;
+    font-weight: 700 !important;
+}
+.bnt-orange{
+    font-size: 16px !important;
+    line-height: 1.5em !important;
+    padding: 10px 16px !important;
+    background: #eb922c !important;
+    color: #fff !important;
+    border-radius: 5px !important;
+    font-weight: 700 !important;
+}
+.m-l-custom-91-500px{
+    margin-left: 91.500px !important;
+}
+.m-r-custom-91-500px{
+    margin-right: 91.500px !important;
+}
