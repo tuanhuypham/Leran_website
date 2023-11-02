@@ -1,0 +1,15 @@
+.Navbar-st1{
+    display: flex;
+    justify-content: space-between;
+}
+.control-contact{
+    display: flex;
+    justify-content:space-around ;
+    list-style: none;
+}
+.control-contact >li{
+    padding: 0px 5px;
+}
+.control-contact>li>a{
+    text-decoration : none;
+}
